@@ -1,0 +1,50 @@
+[api-updater (non-obsolete-error-filter)] 12/10/2022 5:32:30 p. m. : Starting C:/Program Files/Unity 2020.3.30f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 3970,8733ms
+moved types parse time: 156ms
+candidates parse time : 3ms
+C# parse time         : 1647ms
+candidates check time : 51ms
+console write time    : 7ms
+
+[api-updater (non-obsolete-error-filter)] 24/10/2022 12:12:02 a. m. : Starting C:/Program Files/Unity 2020.3.30f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 4719,3171ms
+moved types parse time: 142ms
+candidates parse time : 3ms
+C# parse time         : 2196ms
+candidates check time : 111ms
+console write time    : 31ms
+
+[api-updater (non-obsolete-error-filter)] 28/10/2022 10:12:11 p. m. : Starting C:/Program Files/Unity 2020.3.30f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 3606,5598ms
+moved types parse time: 119ms
+candidates parse time : 2ms
+C# parse time         : 891ms
+candidates check time : 72ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 28/10/2022 10:21:59 p. m. : Starting C:/Program Files/Unity 2020.3.30f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 133,6057ms
+moved types parse time: 107ms
+candidates parse time : 3ms
+C# parse time         : 461ms
+candidates check time : 84ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 18/12/2022 8:54:02 a. m. : Starting C:/Program Files/Unity 2020.3.30f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 4935,6471ms
+moved types parse time: 144ms
+candidates parse time : 2ms
+C# parse time         : 794ms
+candidates check time : 122ms
+console write time    : 1ms
+
