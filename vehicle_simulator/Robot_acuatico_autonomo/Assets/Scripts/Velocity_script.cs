@@ -15,6 +15,6 @@ public class Velocity_script : MonoBehaviour
 
     private void Update()
     {
-        textfield.text="Velocity: "+angulo_bote.GetComponent<Movimiento>().velocidadreal.ToString();
+        textfield.text="Velocity: "+angulo_bote.GetComponent<Movimiento>().velocidadUI.ToString();
     }
 }

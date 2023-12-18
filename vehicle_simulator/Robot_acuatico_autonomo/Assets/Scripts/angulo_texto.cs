@@ -15,6 +15,6 @@ public class angulo_texto : MonoBehaviour
 
     private void Update()
     {
-        textfield.text="Angle: "+angulo_bote.GetComponent<Movimiento>().anguloreal.ToString();
+        textfield.text="Angle: "+angulo_bote.GetComponent<Movimiento>().anguloUI.ToString();
     }
 }
