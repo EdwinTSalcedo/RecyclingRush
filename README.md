@@ -16,7 +16,7 @@ Last Updated: April 27th, 2021
 ## Additional Images
 
 <p align="center">
-  <img src="Images/CAD.png" alt="CAD Design" width="400" style="margin-right: 20px;"/>
+  <img src="cad_design.png" alt="CAD Design" width="400" style="margin-right: 20px;"/>
   <img src="Images/Sim.png" alt="Simulator" width="400"/>
 </p>
 
