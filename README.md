@@ -28,7 +28,7 @@ Last Updated: April 27th, 2021
 ## Description
 This project is an aquatic simulator developed in Unity with the primary goal of simulating an underwater environment where a virtual agent collects water lentils. The simulator incorporates advanced features, such as the use of external Python servers for integrating object detection models based on YOLOv5 and ResNet. Additionally, stereo cameras are utilized to enhance the agent's perception of the environment.
 
-## Key Features
+## Features
 - **Water Lentil Collection:** The virtual agent is designed to efficiently collect water lentils in a simulated aquatic environment.
 
 - **Integration of Detection Models:** External Python servers are employed to integrate object detection models based on YOLOv5 and ResNet. This enables the agent to detect and react to objects in its surroundings.
