@@ -19,10 +19,6 @@ Last Updated: April 27th, 2021
   <img src="Images/CAD.png" alt="CAD Design" width="400" style="margin-right: 20px;"/>
   <img src="Images/Sim.png" alt="Simulator" width="400"/>
 </p>
-<div style="text-align:center; background-color: #f0f0f0; padding: 10px;">
-  <p>Texto descriptivo</p>
-  <img src="url_de_la_imagen" alt="Texto alternativo">
-</div>
 
 <p align="center">
   <i>Left: CAD Design. Right: Simulator.</i>
