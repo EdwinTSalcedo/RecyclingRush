@@ -20,6 +20,10 @@ Last Updated: April 27th, 2021
   <img src="Images/Sim.png" alt="Simulator" width="400"/>
 </p>
 
+## Título
+
+![Texto alternativo](Images/CAD.png)
+
 <p align="center">
   <i>Left: CAD Design. Right: Simulator.</i>
 </p>
