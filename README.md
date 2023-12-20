@@ -22,7 +22,7 @@ Last Updated: April 27th, 2021
 
 ## Título
 
-![Texto alternativo](cad_design.png)
+![hasgdiasudiashduashdasdhas](cad_design.png)
 
 <p align="center">
   <i>Left: CAD Design. Right: Simulator.</i>
