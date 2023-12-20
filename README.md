@@ -16,13 +16,13 @@ Last Updated: April 27th, 2021
 ## Additional Images
 
 <p align="center">
-  <img src="cad_design.png" alt="CAD Design" width="400" style="margin-right: 20px;"/>
+  <img src="Images/CAD.png" alt="CAD Design" width="400" style="margin-right: 20px;"/>
   <img src="Images/Sim.png" alt="Simulator" width="400"/>
 </p>
 
 ## Título
 
-![Texto alternativo](Images/CAD.png)
+![Texto alternativo](cad_design.png)
 
 <p align="center">
   <i>Left: CAD Design. Right: Simulator.</i>
