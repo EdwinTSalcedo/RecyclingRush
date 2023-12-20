@@ -1,6 +1,6 @@
 # Cross-View Gait Recognition Based on U-Net
 
-Last Updated: April 27th, 2021
+Last Updated: December 19th, 2023
 
 ## Table of Contents
 <div align="center" style="background-color: #6495ED; padding: 10px;">
@@ -99,12 +99,11 @@ This project is an aquatic simulator developed in Unity with the primary goal of
 
 ## Additional Notes
 
-- Ensure that your system meets the requirements for running the simulator and Python models.
+- Make sure your system meets the requirements for running the simulator and Python models.
 
-- Customize the Unity project as needed, considering the environmental variables and parameters defined within the project.
+- Customize the Unity project as needed, taking into account environmental constraints and the power of your computer for ride performance.
 
-- For any questions or issues, contact the development team using the provided contact information in the README.
-
+- For any questions or problems, contact the development team using the contact information provided in the README.
 
 ## Contributions
 If you wish to contribute to this project, please follow these guidelines:
