@@ -111,7 +111,7 @@ angle_stereo = 0
 angle_yolo = 0
 # Connection parameters
 host = "localhost"
-port = 12345
+port = 1024
 contclear = 0
 
 nextContTime = time.time() +10.0

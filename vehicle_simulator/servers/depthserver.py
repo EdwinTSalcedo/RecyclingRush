@@ -178,7 +178,7 @@ angle_stereo = 0
 angle_yolo = 0
 # Connection parameters
 host = "localhost"
-port = 12345
+port = 1024
 contclear = 0
 
 nextContTime = time.time() +10.0
@@ -230,7 +230,7 @@ while True:
                                 angle_stereo = obtain_angle_from_stereo(img1, img2)
                                 w1 = 0.5
                                 w2 = 0.5
-                                if(angle_effnet == 3):
+                                if(angle_stereo == 3):
                                     w1 = 0
                                     w2 = 1
                                     if(angle_yolo == 3):
