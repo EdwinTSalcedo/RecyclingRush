@@ -32,7 +32,7 @@ public class effnetclient : MonoBehaviour
         GameObject objWithMovimientoAutonomo = GameObject.FindGameObjectWithTag("MovimientoAutonomo");
         mov_auto = objWithMovimientoAutonomo.GetComponent<Movimiento_autonomo>();
         cameras = GameObject.FindWithTag("camprin").GetComponent<Camera>();
-        client = new TcpClient("localhost", 12345);
+        client = new TcpClient("localhost", 1024);
         stream = client.GetStream();
         lastSendTime = Time.time; 
         contant =  cont;

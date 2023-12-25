@@ -191,7 +191,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8038}
     - Class: 114
-      Script: {instanceID: 32578}
+      Script: {instanceID: 33696}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -490,7 +490,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7840}
     - Class: 114
-      Script: {instanceID: 32578}
+      Script: {instanceID: 33696}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -591,7 +591,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7840}
     - Class: 114
-      Script: {instanceID: 32578}
+      Script: {instanceID: 33696}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1924,4 +1924,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Validation.unity
   - Assets/Scenes/Self-driving.unity
   - Assets/Scenes/Evaluation.unity
-  playerPath: E:/Repositorios/Simulation_aquatic/Recogedor_de_basura_acuatico/RecyclingRush/Robot_acuatico_autonomo.exe
+  playerPath: C:/Users/yamil/OneDrive/Escritorio/robot/Robot_acuatico_autonomo.exe

@@ -34,7 +34,7 @@ public class depthclient : MonoBehaviour
         cameras[0] = GameObject.FindWithTag("stereo1").GetComponent<Camera>();
         cameras[1] = GameObject.FindWithTag("stereo2").GetComponent<Camera>();
         cameras[2] = GameObject.FindWithTag("camprin").GetComponent<Camera>();
-        client = new TcpClient("localhost", 12345);
+        client = new TcpClient("localhost", 1024);
         stream = client.GetStream();
         lastSendTime = Time.time; 
         contant =  cont;
