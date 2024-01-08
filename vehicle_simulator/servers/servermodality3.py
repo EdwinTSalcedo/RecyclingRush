@@ -95,7 +95,8 @@ def obtain_final_angle(angle1, angle2, w1, w2):
     weighted_angle = (angle1 * w1 + angle2 * w2)
     
     rounded_weighted_angle = round(weighted_angle)
-    
+    if(w1 == 0 and w2 == 0):
+        rounded_weighted_angle = 3
     angle_map = {0: -45, 1: -30, 2: -15, 3: 0, 4: 15, 5: 30, 6: 45}
     final_angle = angle_map.get(rounded_weighted_angle, 0)
     print("angle1" + str(angle1))

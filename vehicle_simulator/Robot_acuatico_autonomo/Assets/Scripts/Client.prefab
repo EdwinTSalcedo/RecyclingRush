@@ -45,8 +45,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mov_auto: {fileID: 0}
   cameras: {fileID: 0}
-  captureinterval: 1
+  captureinterval: 0.5
   clearinter: 0
   message: 
   binary: 0
+  contant: 0
+  cont: 0
   reseting: {fileID: 0}

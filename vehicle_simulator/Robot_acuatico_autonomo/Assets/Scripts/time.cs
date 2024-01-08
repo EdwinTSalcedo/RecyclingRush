@@ -49,7 +49,6 @@ public class time : MonoBehaviour
                     momentumFolder = System.IO.Path.Combine (basePath, "Modality4");
                     break;
                 default:
-                    Debug.Log("Modo Manual");
                     break;
             }
             // Actualiza el tiempo transcurrido según la escala de tiempo actual.
@@ -84,7 +83,6 @@ public class time : MonoBehaviour
                         conta=conta4;
                         break;
                     default:
-                        Debug.Log("Modo Manual");
                         break;
                 }
                 string rutaArchivo =  momentumFolder+ "/time"+conta.ToString()+".txt";
@@ -106,7 +104,6 @@ public class time : MonoBehaviour
                         conta4++;
                         break;
                     default:
-                        Debug.Log("Modo Manual");
                         break;
                 }
                 
@@ -129,7 +126,6 @@ public class time : MonoBehaviour
                         conta=conta4;
                         break;
                     default:
-                        Debug.Log("Modo Manual");
                         break;
                 }
                 string rutaArchivo =  momentumFolder + "/time"+conta.ToString()+".txt";
@@ -151,7 +147,6 @@ public class time : MonoBehaviour
                         conta4++;
                         break;
                     default:
-                        Debug.Log("Modo Manual");
                         break;
                 }
                 

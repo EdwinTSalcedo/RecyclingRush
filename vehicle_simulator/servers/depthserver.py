@@ -67,11 +67,13 @@ def obtain_angle_from_stereo(img1, img2):
     try:
         alto, ancho = img1.shape
         # Calcula la mitad del alto de las imágenes
-        mitad_alto = alto // 2
+        mitad_alto = 4 * alto // 6
+        mitad_bajo = 6 * alto // 6
 
         # Recorta las imágenes para tomar solo la mitad inferior
-        img1 = img1[mitad_alto:, :]
-        img2 = img2[mitad_alto:, :]
+        img1 = img1[mitad_alto:mitad_bajo, :]
+        img2 = img2[mitad_alto:mitad_bajo, :]
+        cv.imwrite("imagen_original.jpg", img1)
         # Calcular la disparidad
         stereo = cv.StereoSGBM_create(
             minDisparity=-128,
@@ -90,36 +92,40 @@ def obtain_angle_from_stereo(img1, img2):
         disparity_SGBM = np.uint8(disparity_SGBM)
 
         # Mostrar la figura con los dos subplots
-        plt.show()
+    
+        
         # Recortar la disparidad y realizar el procesamiento para obtener el resultado
-        border_size = 140
+        border_size = 150
         disparity_SGBM_cropped = disparity_SGBM[:, border_size:-border_size]
         thresh = 240
         _, disparity_SGBM_cropped = cv.threshold(disparity_SGBM_cropped, thresh, 255, cv.THRESH_BINARY)
+        cv.imwrite("imagen_stereo.jpg", disparity_SGBM_cropped)
         # Calcular el resultado basado en la disparidad
         promedio_columnas = np.mean(disparity_SGBM_cropped, axis=0)
+        
         group_size = len(promedio_columnas) // 7
         averaged_promedios = []
-
+        
         for i in range(0, len(promedio_columnas), group_size):
             group = promedio_columnas[i:i + group_size]
             average = sum(group) / len(group)
             averaged_promedios.append(average)
-        for i in range(len(averaged_promedios)):
-            if averaged_promedios[i] < 40:
-                averaged_promedios[i] = 0
+        #for i in range(len(averaged_promedios)):
+        #    if averaged_promedios[i] < 40:
+        #        averaged_promedios[i] = 0
         todos_son_cero = all(valor == 0 for valor in averaged_promedios)
         min_value = min(averaged_promedios)
+        print(averaged_promedios)
         if(todos_son_cero):
             min_position = 3
         else:
             min_position = averaged_promedios.index(min_value)
-        
-        
+        plt.subplot(1, 2, 2) 
         
         return min_position
+        
     except Exception as e:
-        return 0
+        return 3
 def obtain_angle_from_bboxes(bboxes, threshold=None):
     if len(bboxes) == 0:
         return "3"
@@ -156,7 +162,8 @@ def obtain_final_angle(angle1, angle2, w1, w2):
     weighted_angle = (angle1 * w1 + angle2 * w2)
     
     rounded_weighted_angle = round(weighted_angle)
-    
+    if(w1 == 0 and w2 == 0):
+        rounded_weighted_angle = 3
     angle_map = {0: -45, 1: -30, 2: -15, 3: 0, 4: 15, 5: 30, 6: 45}
     final_angle = angle_map.get(rounded_weighted_angle, 0)
     print("angle1: " + str(angle1))

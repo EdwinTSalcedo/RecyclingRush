@@ -13,8 +13,8 @@ public class Movimiento_autonomo : MonoBehaviour
     public int elec;
     public float velocidadMovimiento = 5f;
     public float velocidadAngular = 5f;
-    public float rangoAnguloMinimo = 90f;
-    public float rangoAnguloMaximo = 180f;
+    public float rangoAnguloMinimo = 140f;
+    public float rangoAnguloMaximo = 150f;
     public float toleranciaAngular = 10f;
     public bool autonomous;
     private float intelreset;
@@ -34,6 +34,17 @@ public class Movimiento_autonomo : MonoBehaviour
     private bool modad3;
     private bool modad2;
     private bool modad1;
+    private bool objectcol;
+    public GameObject plano;
+    public GameObject plano1;
+    public GameObject plano2;
+    public GameObject plano3;
+    private void Update() {
+       plano = GameObject.Find("Plane");
+    plano1 = GameObject.Find("Plane (1)");
+     plano2 = GameObject.Find("Plane (2)");
+    plano3 = GameObject.Find("Plane (3)");
+    }
     private void OnEnable()
     {
         rb = GetComponent<Rigidbody>();
@@ -184,22 +195,54 @@ public class Movimiento_autonomo : MonoBehaviour
         }
         else
         {
-            
+            if(!objectcol)
+            {
+                MoverEnDireccionAleatoria();
+            }
             GirarHaciaAnguloAleatorio();
         }
     }
-
-    private void OnCollisionStay(Collision other) 
-    {
+    private void OnTriggerEnter(Collider other) {
+        
         if (!detenido)
         {
             if (other.gameObject.CompareTag("limit"))
             {
+                objectcol = false;
+                string nombreDelObjeto = other.gameObject.name;
+                if(nombreDelObjeto == "Plane (1)")
+                {
+                    anguloObjetivo = 0;
+                    plano.GetComponent<BoxCollider>().enabled=false;
+                    plano2.GetComponent<BoxCollider>().enabled=false;
+                    plano3.GetComponent<BoxCollider>().enabled=false;
+                    
+                    
+                }
+                else if(nombreDelObjeto == "Plane (2)")
+                {
+                    anguloObjetivo = 90;
+                    plano1.GetComponent<BoxCollider>().enabled=false;
+                    plano.GetComponent<BoxCollider>().enabled=false;
+                    plano3.GetComponent<BoxCollider>().enabled=false;
+                }
+                else if(nombreDelObjeto == "Plane (3)")
+                {
+                    anguloObjetivo = 180;
+                    plano.GetComponent<BoxCollider>().enabled=false;
+                    plano2.GetComponent<BoxCollider>().enabled=false;
+                    plano1.GetComponent<BoxCollider>().enabled=false;
+                }
+                else if(nombreDelObjeto == "Plane")
+                {
+                    anguloObjetivo = 270;
+                    plano1.GetComponent<BoxCollider>().enabled=false;
+                    plano2.GetComponent<BoxCollider>().enabled=false;
+                    plano3.GetComponent<BoxCollider>().enabled=false;
+                }
                 // Verificar si ha pasado suficiente tiempo desde la última detección
                 if (Time.time - tiempoUltimaDeteccion >= tiempoEspe)
                 {
-                    
-                    rb.velocity = transform.forward* -1 * velocidadMovimiento;
                     detenido = true;
                     tiempoUltimaDeteccion = Time.time;
                 }
@@ -211,6 +254,33 @@ public class Movimiento_autonomo : MonoBehaviour
             if (Time.time - tiempoUltimaDeteccion >= tiempoEspe)
             {
                 detenido = false;
+                tiempoUltimaDeteccion = Time.time;
+            }
+        }
+    }
+    private void OnCollisionStay(Collision other) 
+    {
+        if (!detenido)
+        {
+            if (other.gameObject.CompareTag("object"))
+            {
+                // Verificar si ha pasado suficiente tiempo desde la última detección
+                if (Time.time - tiempoUltimaDeteccion >= tiempoEspe)
+                {
+                    rb.velocity = transform.forward* -0.3f * velocidadMovimiento;
+                    detenido = true;
+                    objectcol = true;
+                    tiempoUltimaDeteccion = Time.time;
+                }
+            }
+        }
+        else
+        {
+            // Si el tiempo de espera ha pasado, reactiva la detección
+            if (Time.time - tiempoUltimaDeteccion >= tiempoEspe)
+            {
+                detenido = false;
+                objectcol = false;
                 tiempoUltimaDeteccion = Time.time;
             }
         }
@@ -239,17 +309,19 @@ public class Movimiento_autonomo : MonoBehaviour
     private void GirarHaciaAnguloAleatorio()
     {
         float anguloActual = transform.eulerAngles.y;
-        
+        Debug.Log(Mathf.Abs(anguloActual - anguloObjetivo) );
         if (!girando)
         {
-            anguloObjetivo = UnityEngine.Random.Range(rangoAnguloMinimo, rangoAnguloMaximo);
-            anguloObjetivo += anguloActual;
-            
-            if(anguloObjetivo>360)
+            if(objectcol)
             {
-                anguloObjetivo -=360;
+                anguloObjetivo = UnityEngine.Random.Range(rangoAnguloMinimo, rangoAnguloMaximo);
+                anguloObjetivo += anguloActual;
+                
+                if(anguloObjetivo>360)
+                {
+                    anguloObjetivo -=360;
+                }
             }
-
             girando = true;
         }
 
@@ -257,6 +329,10 @@ public class Movimiento_autonomo : MonoBehaviour
         {
             girando = false;
             detenido  = false;
+            plano.GetComponent<BoxCollider>().enabled=true;
+            plano1.GetComponent<BoxCollider>().enabled=true;
+            plano2.GetComponent<BoxCollider>().enabled=true;
+            plano3.GetComponent<BoxCollider>().enabled=true;
         }
         else
         {

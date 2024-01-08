@@ -14,6 +14,7 @@ TagManager:
   - client
   - MovimientoAutonomo
   - point
+  - object
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - UI
   - RenderOnTop
   - Terrain
-  - 
+  - Objects
   - 
   - 
   - 

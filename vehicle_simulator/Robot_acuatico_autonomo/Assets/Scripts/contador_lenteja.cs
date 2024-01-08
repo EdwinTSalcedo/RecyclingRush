@@ -53,7 +53,6 @@ public class contador_lenteja : MonoBehaviour
                     momentumFolder = System.IO.Path.Combine (basePath, "Modality4");
                     break;
                 default:
-                    Debug.Log("Modo Manual");
                     break;
             }
         sistemaDeParticulas = GetComponent<ParticleSystem>();
@@ -79,7 +78,6 @@ public class contador_lenteja : MonoBehaviour
                     conta=conta4;
                     break;
                 default:
-                    Debug.Log("Modo Manual");
                     break;
             }
             string rutaArchivo = momentumFolder + "/lenteja"+conta.ToString()+".txt";
@@ -103,7 +101,6 @@ public class contador_lenteja : MonoBehaviour
                     conta4++;
                     break;
                 default:
-                    Debug.Log("Modo Manual");
                     break;
             }
         }
@@ -124,7 +121,6 @@ public class contador_lenteja : MonoBehaviour
                     conta=conta4;
                     break;
                 default:
-                    Debug.Log("Modo Manual");
                     break;
             }
             string rutaArchivo = momentumFolder + "/lenteja"+conta.ToString()+".txt";
@@ -149,7 +145,6 @@ public class contador_lenteja : MonoBehaviour
                     conta4++;
                     break;
                 default:
-                    Debug.Log("Modo Manual");
                     break;
             }
         }

@@ -8,7 +8,6 @@ ScriptsOnlyBuild:
     - Envio_imagenes
     - LimpiarConsola
     - LoadingScreenController
-    - MoverImagen
     - Movimiento
     - Movimiento_autonomo
     - SelectWorld
@@ -191,7 +190,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8038}
     - Class: 114
-      Script: {instanceID: 33696}
+      Script: {instanceID: 32586}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -251,8 +250,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5884}
     - Class: 114
       Script: {instanceID: 6014}
-    - Class: 114
-      Script: {instanceID: 6338}
     - Class: 114
       Script: {instanceID: 6344}
     - Class: 114
@@ -490,7 +487,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7840}
     - Class: 114
-      Script: {instanceID: 33696}
+      Script: {instanceID: 32586}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -591,7 +588,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7840}
     - Class: 114
-      Script: {instanceID: 33696}
+      Script: {instanceID: 32586}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1565,7 +1562,7 @@ ScriptsOnlyBuild:
     className: Benchmark03
   - hash:
       serializedVersion: 2
-      Hash: aca8b05b974dd0ccb962b41dbcb9805f
+      Hash: 5ede4eebe7462f500e5f06145706cc9b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Movimiento_autonomo
@@ -1924,4 +1921,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Validation.unity
   - Assets/Scenes/Self-driving.unity
   - Assets/Scenes/Evaluation.unity
-  playerPath: C:/Users/yamil/OneDrive/Escritorio/robot/Robot_acuatico_autonomo.exe
+  playerPath: E:/Repositorios/RecyclingRush/vehicle_simulator/RecyclingRush/Robot_acuatico_autonomo.exe
