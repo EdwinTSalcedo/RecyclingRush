@@ -1,7 +1,8 @@
 # CAD Design USV
+![CAD DESIGN](https://media.giphy.com/media/UdUvtKM1NgC2zawLRk/giphy.gif)
 
 ## Description
-This repository contains the CAD designs for an Unmanned Surface Vehicle (USV) specifically designed for the collection of water lentils. The design includes all the parts that were used to 3D print the vehicle, such as the "Control Box", "Main Body", "Floaters", and "Main Grid".
+This repository contains the CAD designs for an Unmanned Surface Vehicle (USV) specifically designed for the collection of Duckweed. The design includes all the parts that were used to 3D print the vehicle, such as the "Control Box", "Main Body", "Floaters", and "Main Grid".
 
 ## Repository Contents
 The repository is organized with the following files:
