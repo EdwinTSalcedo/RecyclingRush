@@ -29,7 +29,7 @@ The repository is organized with the following files:
 - [`VentLid`](/RecyclingRush/blob/CAD_Design_USV/USV/VentLid): Lid for ventilation.
 
 ### Assembly File
-- [`Assembly`](USV/Assembly.SLDASM): The complete assembly of the USV.
+- [`Assembly`](/Assembly.SLDASM): The complete assembly of the USV.
 
 
 ## Software Requirements
