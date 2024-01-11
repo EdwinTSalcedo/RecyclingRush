@@ -8,23 +8,18 @@ This repository contains the CAD designs for an Unmanned Surface Vehicle (USV) s
 The repository is organized with the following files:
 
 ### Part Files
-- `Aux_1`, `Aux_2`, `Aux_3`: Support structures.
-- `BackSupport`: Used for the net grip that collects water lentils.
-- `BatteryCover`: Covers the battery housing area.
-- `BoltHolder`: Holder for bolts.
-- `BoxLid`: Lid for the control box.
-- `ElectronicBox`: Housing for the electronic components.
-- `Flipper`: Grip for the motors.
-- `FloaterBase`: Base structure for the floaters.
-- `FloaterLeftBack`, `FloaterLeftFront`, `FloaterRightBack`, `FloaterRightFront`: The four parts of the floaters for 3D printing.
-- `FrontSupport`: Frontal support structure.
-- `Grid`: Filtering grid.
-- `Joint`: Joint component.
-- `UpperStructure`: Upper structure of the vehicle.
-- `VentLid`: Lid for ventilation.
+- [`Aux_1`](/RecyclingRush/blob/CAD_Design_USV/USV/Aux_1): Support structures.
+- [`Aux_2`](/RecyclingRush/blob/CAD_Design_USV/USV/Aux_2): Support structures.
+- [`Aux_3`](/RecyclingRush/blob/CAD_Design_USV/USV/Aux_3): Support structures.
+- [`BackSupport`](/RecyclingRush/blob/CAD_Design_USV/USV/BackSupport): Used for the net grip that collects water lentils.
+- [`BatteryCover`](/RecyclingRush/blob/CAD_Design_USV/USV/BatteryCover): Covers the battery housing area.
+- [`BoltHolder`](/RecyclingRush/blob/CAD_Design_USV/USV/BoltHolder): Holder for bolts.
+- [`BoxLid`](/RecyclingRush/blob/CAD_Design_USV/USV/BoxLid): Lid for the control box.
+- [`ElectronicBox`](/RecyclingRush/blob/CAD_Design_USV/USV/ElectronicBox): Housing for the electronic components.
+- ... (y así sucesivamente para los demás archivos)
 
 ### Assembly File
-- `Assembly`: The complete assembly of the USV.
+- [`Assembly`](/RecyclingRush/blob/CAD_Design_USV/USV/Assembly.SLDASM): The complete assembly of the USV.
 
 ## Software Requirements
 - SolidWorks 2020: The design was created in SolidWorks 2020, and it is recommended to use the same or a newer version for compatibility.
