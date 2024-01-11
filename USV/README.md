@@ -8,25 +8,26 @@ This repository contains the CAD designs for an Unmanned Surface Vehicle (USV) s
 The repository is organized with the following files:
 
 ### Part Files
-- [`Aux_1`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/Aux_1): Support structures.
-- [`Aux_2`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/Aux_2): Support structures.
-- [`Aux_3`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/Aux_3): Support structures.
-- [`BackSupport`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/BackSupport): Used for the net grip that collects water lentils.
-- [`BatteryCover`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/BatteryCover): Covers the battery housing area.
-- [`BoltHolder`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/BoltHolder): Holder for bolts.
-- [`BoxLid`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/BoxLid): Lid for the control box.
-- [`ElectronicBox`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/ElectronicBox): Housing for the electronic components.
-- [`Flipper`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/Flipper): Grip for the motors.
-- [`FloaterBase`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/FloaterBase): Base structure for the floaters.
-- [`FloaterLeftBack`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/FloaterLeftBack): The left back part of the floaters.
-- [`FloaterLeftFront`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/FloaterLeftFront): The left front part of the floaters.
-- [`FloaterRightBack`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/FloaterRightBack): The right back part of the floaters.
-- [`FloaterRightFront`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/FloaterRightFront): The right front part of the floaters.
-- [`FrontSupport`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/FrontSupport): Frontal support structure.
-- [`Grid`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/Grid): Filtering grid.
-- [`Joint`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/Joint): Joint component.
-- [`UpperStructure`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/UpperStructure): Upper structure of the vehicle.
-- [`VentLid`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/VentLid): Lid for ventilation.
+- [`Aux_1`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/Aux_1.SLDPRT): Support structures.
+- [`Aux_2`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/Aux_2.SLDPRT): Support structures.
+- [`Aux_3`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/Aux_3.SLDPRT): Support structures.
+- [`BackSupport`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/BackSupport.SLDPRT): Used for the net grip that collects water lentils.
+- [`BatteryCover`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/BatteryCover.SLDPRT): Covers the battery housing area.
+- [`BoltHolder`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/BoltHolder.SLDPRT): Holder for bolts.
+- [`BoxLid`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/BoxLid.SLDPRT): Lid for the control box.
+- [`ElectronicBox`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/ElectronicBox.SLDPRT): Housing for the electronic components.
+- [`Flipper`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/Flipper.SLDPRT): Grip for the motors.
+- [`FloaterBase`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/FloaterBase.SLDPRT): Base structure for the floaters.
+- [`FloaterLeftBack`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/FloaterLeftBack.SLDPRT): The left back part of the floaters.
+- [`FloaterLeftFront`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/FloaterLeftFront.SLDPRT): The left front part of the floaters.
+- [`FloaterRightBack`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/FloaterRightBack.SLDPRT): The right back part of the floaters.
+- [`FloaterRightFront`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/FloaterRightFront.SLDPRT): The right front part of the floaters.
+- [`FrontSupport`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/FrontSupport.SLDPRT): Frontal support structure.
+- [`Grid`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/Grid.SLDPRT): Filtering grid.
+- [`Joint`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/Joint.SLDPRT): Joint component.
+- [`UpperStructure`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/UpperStructure.SLDPRT): Upper structure of the vehicle.
+- [`VentLid`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/VentLid.SLDPRT): Lid for ventilation.
+
 
 ### Assembly File
 - [`Assembly`](https://github.com/EdwinTSalcedo/RecyclingRush/blob/CAD_Design_USV/USV/Assembly.SLDASM): The complete assembly of the USV.
