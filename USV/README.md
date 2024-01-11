@@ -16,7 +16,6 @@ The repository is organized with the following files:
 - [`BoltHolder`](/RecyclingRush/blob/CAD_Design_USV/USV/BoltHolder): Holder for bolts.
 - [`BoxLid`](/RecyclingRush/blob/CAD_Design_USV/USV/BoxLid): Lid for the control box.
 - [`ElectronicBox`](/RecyclingRush/blob/CAD_Design_USV/USV/ElectronicBox): Housing for the electronic components.
-- ... (y así sucesivamente para los demás archivos)
 
 ### Assembly File
 - [`Assembly`](/RecyclingRush/blob/CAD_Design_USV/USV/Assembly.SLDASM): The complete assembly of the USV.
