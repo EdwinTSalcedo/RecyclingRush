@@ -1,17 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class SelectWorld : MonoBehaviour
 {
-    public void CambiarEscena(int numberScene)
+    public void ChangeScene(int sceneNumber)
     {
         SceneManager.LoadScene("LoadofScene");
-        LoadingScreenController.choice = numberScene;
-    }
-    public void PrincipalEscena()
-    {
-        SceneManager.LoadScene("Mainscene");
+        LoadingScreenController.choice = sceneNumber;
     }
 
+    public void LoadMainScene() => SceneManager.LoadScene("Mainscene");
 }
