@@ -104,7 +104,12 @@ This project is an aquatic simulator developed in Unity with the primary goal of
 - Customize the Unity project as needed, taking into account environmental constraints and the power of your computer for ride performance.
 
 - For any questions or problems, contact the development team using the contact information provided in the README.
-
+##Scripts
+| Columna 1 | Columna 2 | Columna 3 |
+|---|---|---|
+| Valor 1 | Valor 2 | Valor 3 |
+| Valor 4 | Valor 5 | Valor 6 |
+| Valor 7 | Valor 8 | Valor 9 |
 ## Contributions
 If you wish to contribute to this project, please follow these guidelines:
 
