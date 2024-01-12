@@ -105,11 +105,12 @@ This project is an aquatic simulator developed in Unity with the primary goal of
 
 - For any questions or problems, contact the development team using the contact information provided in the README.
 ##Scripts
-| Columna 1 | Columna 2 | Columna 3 |
-|---|---|---|
-| Valor 1 | Valor 2 | Valor 3 |
-| Valor 4 | Valor 5 | Valor 6 |
-| Valor 7 | Valor 8 | Valor 9 |
+| Encabezado 1 | Encabezado 2 | Encabezado 3 |
+| ------------ | ------------ | ------------ |
+| Celda 1,1    | Celda 1,2    | Celda 1,3    |
+| Celda 2,1    | Celda 2,2    | Celda 2,3    |
+| Celda 3,1    | Celda 3,2    | Celda 3,3    |
+
 ## Contributions
 If you wish to contribute to this project, please follow these guidelines:
 
