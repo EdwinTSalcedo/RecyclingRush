@@ -4,10 +4,12 @@ Last Updated: December 19th, 2023
 
 ## Table of Contents
 <div align="center" style="background-color: #6495ED; padding: 10px;">
+  [![Description](URL_DE_LA_IMAGEN)](#description)
   <a href="#description" style="color: #FF00FF;"><b>Description</b></a> |
   <a href="#features" style="color: #FF00FF;"><b>Features</b></a> |
   <a href="#installation" style="color: #FF00FF;"><b>Installation</b></a> |
   <a href="#usage" style="color: #FF00FF;"><b>Usage</b></a> |
+  <a href="#scripts" style="color: #FF00FF;"><b>Scripts</b></a> |
   <a href="#contributions" style="color: #FF00FF;"><b>Contributions</b></a> |
   <a href="#license" style="color: #FF00FF;"><b>License</b></a> |
   <a href="#contact" style="color: #FF00FF;"><b>Contact</b></a>
@@ -104,6 +106,12 @@ This project is an aquatic simulator developed in Unity with the primary goal of
 - Customize the Unity project as needed, taking into account environmental constraints and the power of your computer for ride performance.
 
 - For any questions or problems, contact the development team using the contact information provided in the README.
+## Scripts
+| Encabezado 1 | Encabezado 2 | Encabezado 3 |
+| ------------ | ------------ | ------------ |
+| Celda 1,1    | Celda 1,2    | Celda 1,3    |
+| Celda 2,1    | Celda 2,2    | Celda 2,3    |
+| Celda 3,1    | Celda 3,2    | Celda 3,3    |
 
 ## Contributions
 If you wish to contribute to this project, please follow these guidelines:
