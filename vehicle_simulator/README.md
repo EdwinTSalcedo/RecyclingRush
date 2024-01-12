@@ -4,7 +4,6 @@ Last Updated: December 19th, 2023
 
 ## Table of Contents
 <div align="center" style="background-color: #6495ED; padding: 10px;">
-  [![Description](URL_DE_LA_IMAGEN)](#description)
   <a href="#description" style="color: #FF00FF;"><b>Description</b></a> |
   <a href="#features" style="color: #FF00FF;"><b>Features</b></a> |
   <a href="#installation" style="color: #FF00FF;"><b>Installation</b></a> |
