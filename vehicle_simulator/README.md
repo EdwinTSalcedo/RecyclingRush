@@ -16,8 +16,8 @@ Last Updated: December 19th, 2023
 ## Additional Images
 
 <p align="center">
-  <img src="Images/CAD.png" alt="CAD Design" width="400" style="margin-right: 20px;"/>
-  <img src="Images/Sim.png" alt="Simulator" width="400"/>
+  <img src="Images/CAD.png" alt="CAD Design" width="350" style="margin-right: 20px;"/>
+  <img src="Images/Sim.png" alt="Simulator" width="350"/>
 </p>
 
 <p align="center">
@@ -115,6 +115,25 @@ This project is an aquatic simulator developed in Unity with the primary goal of
 - Customize the Unity project as needed, taking into account environmental constraints and the power of your computer for ride performance.
 
 - For any questions or problems, contact the development team using the contact information provided in the README.
+- 
+## Environments
+
+Three different modes are available in the main menu of the simulator, each of which serves a specific function in model training and evaluation.
+
+**Autonomous Driving:** Used for data collection during autonomous driving model training. It captures image sequences, considering both the angle and speed of the vehicle.
+
+**Validation:** Allows manual image capture, establishing a database for model validation. Useful for evaluating model performance in controlled and specific scenarios.
+
+**Evaluation:** The activation of the four modes in this environment allows the evaluation of duckweed detection and steering models. It facilitates comprehensive evaluations and performance analysis under various conditions.
+<p align="center">
+  <img src="Images/MainMenu.png" alt="CAD Design" width="350" style="margin-right: 20px;"/>
+</p>
+
+<p align="center">
+  <i>Main Menu.</i>
+</p>
+### Self-driving environment
+
 ## File Overview
 
 ### Files C#
