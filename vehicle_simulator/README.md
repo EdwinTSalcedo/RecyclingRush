@@ -126,13 +126,91 @@ Three different modes are available in the main menu of the simulator, each of w
 
 **Evaluation:** The activation of the four modes in this environment allows the evaluation of duckweed detection and steering models. It facilitates comprehensive evaluations and performance analysis under various conditions.
 <p align="center">
-  <img src="Images/MainMenu.png" alt="CAD Design" width="350" style="margin-right: 20px;"/>
+  <img src="Images/MainMenu.png" alt="Main Menu" width="350" style="margin-right: 20px;"/>
 </p>
 
 <p align="center">
   <i>Main Menu.</i>
 </p>
+
 ### Self-driving environment
+The self-driving environment is set in an aquatic setting with various elements simulating a lake, featuring aquatic plants and boats. The purpose of this environment is to capture a sequence of images, taking into account the boat's angle and speed at any given moment. The interface comprises two interactive elements and two informational elements.
+
+#### Interface Elements:
+
+- **Menu:** This button allows users to navigate back to the main menu.
+
+- **Record/Stop:** Activates or deactivates the image capture process.
+
+- **Angle:** Displays the current steering angle of the boat. This information is reflected in the title of the captured image.
+
+- **Velocity:** Shows the speed of the boat at the specific moment. The velocity information is also included in the image title.
+
+<p align="center">
+  <img src="gifs/SelfDriving.gif" alt="Self Driving" width="350" style="margin-right: 20px;"/>
+</p>
+
+<p align="center">
+  <i>Self-driving environment</i>
+</p>
+
+### Validation Environment
+
+The validation environment is designed to simulate a port in the aquatic lake, resulting in a more organized layout of elements. The primary objective is to manually capture images chosen by the user. Additionally, users can adjust the camera to capture different types of images, both underwater and head-on. The interface features four buttons for user interaction.
+
+#### Interface Elements:
+
+- **Menu:** This button allows users to return to the main menu.
+
+- **Capture:** This button is responsible for capturing and saving the selected image.
+
+- **Up:** Adjusts the camera to face upwards.
+
+- **Down:** Adjusts the camera to face downwards.
+
+<p align="center">
+  <img src="gifs/Validation.gif" alt="Validation" width="350" style="margin-right: 20px;"/>
+</p>
+
+<p align="center">
+  <i>Validation environment</i>
+</p>
+
+### Evaluation Environment
+
+The evaluation environment is designed for model testing and stereo camera usage to optimize the collection of duckweed and avoid obstacles efficiently. It displays a well-organized section of the lake for data collection, particularly focusing on the duckweed gathered over specific time intervals. The environment allows adjusting robot modalities with different characteristics.
+
+#### Interface Elements:
+
+- **Menu:** Returns to the main menu.
+
+- **Restart:** Resets the robot's journey to test different modalities or changes.
+
+- **Reduce:** Slows down the environment's time to capture journey details more effectively.
+
+- **Increase:** Speeds up the environment's time to accelerate the journey if necessary.
+
+- **Camera:** Changes the user's perspective on the boat.
+
+- **Modality Selection:** A dropdown menu presenting 5 options:
+
+  - **Manual:** Default modality, allowing user manipulation of robot movement.
+
+  - **Modality 1:** Utilizes only the duckweed detection model with a drastic angle change.
+
+  - **Modality 2:** Utilizes only the duckweed detection model but with momentum for smoother angle changes.
+
+  - **Modality 3:** Considers two models - duckweed detection and direction detection, resulting in smoothed angle changes.
+
+  - **Modality 4:** Incorporates the duckweed detection model and uses a stereo camera to determine obstacles to avoid.
+
+<p align="center">
+  <img src="gifs/Evaluation.gif" alt="Evaluation" width="350" style="margin-right: 20px;"/>
+</p>
+
+<p align="center">
+  <i>Evaluation environment</i>
+</p>
 
 ## File Overview
 
