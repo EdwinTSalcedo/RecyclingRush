@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Vehicle\AutonomousMovement.cs" />
      <Compile Include="Assets\Scripts\Main Menu\Create_documents.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\Scripts\Vehicle\Floats.cs" />
@@ -57,6 +58,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\DataEvaluation\TimeManager.cs" />
      <Compile Include="Assets\Scripts\Clients\depthclient.cs" />
      <Compile Include="Assets\Scripts\Servers\modality2.cs" />
      <Compile Include="Assets\Scripts\Camera\CaptureImage.cs" />
@@ -67,6 +69,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\Scripts\DataEvaluation\DuckweedCounter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\Scripts\Servers\modality1.cs" />
@@ -80,6 +83,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\Scripts\Interface\TextController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\Scripts\System\rest.cs" />
      <Compile Include="Assets\Scripts\Interface\VelocityScript.cs" />
@@ -89,14 +93,10 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraRotation.cs" />
-     <Compile Include="Assets\Scripts\System\MiScript.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\Scripts\Servers\modality3.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\Scripts\DataEvaluation\DuckweedCounter.cs" />
-     <Compile Include="Assets\Scripts\Vehicle\AutonomousMovement.cs" />
-     <Compile Include="Assets\Scripts\DataEvaluation\TimeManager.cs" />
-     <Compile Include="Assets\Scripts\Interface\TextController.cs" />
+     <Compile Include="Assets\Scripts\System\Nox.cs" />
      <None Include="Assets\!Recycling Rush\servers\Travels\time23.txt" />
      <None Include="Assets\!Recycling Rush\servers\Travels\lenteja23.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

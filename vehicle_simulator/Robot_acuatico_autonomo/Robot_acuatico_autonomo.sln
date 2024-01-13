@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Mathematics", "Unity.Mathematics.csproj", "{f198efa0-b985-0212-725b-0cc4c4508f03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Universal.Runtime.csproj", "{fe5a091b-e27e-1715-e568-ac842bd99f08}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{06cc8c4c-05df-2289-08df-1ec397de0ffa}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Universal.Runtime.csproj", "{fe5a091b-e27e-1715-e568-ac842bd99f08}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.TextMeshPro.csproj", "{d92cdb66-b879-4c6a-3fd4-1c1939d73034}"
 EndProject
@@ -92,10 +92,10 @@ Global
 		{58954941-7e3d-df0d-c28c-f7ff93df15f7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f198efa0-b985-0212-725b-0cc4c4508f03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{f198efa0-b985-0212-725b-0cc4c4508f03}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{fe5a091b-e27e-1715-e568-ac842bd99f08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{fe5a091b-e27e-1715-e568-ac842bd99f08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06cc8c4c-05df-2289-08df-1ec397de0ffa}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{06cc8c4c-05df-2289-08df-1ec397de0ffa}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{fe5a091b-e27e-1715-e568-ac842bd99f08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{fe5a091b-e27e-1715-e568-ac842bd99f08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d92cdb66-b879-4c6a-3fd4-1c1939d73034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{d92cdb66-b879-4c6a-3fd4-1c1939d73034}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09d1d19b-c35e-49b6-c5e7-5efa0a709607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
