@@ -55,7 +55,18 @@ This project is an aquatic simulator developed in Unity with the primary goal of
     ```bash
     pip install -r requirements.txt
     ```
-
+4. Additionally, ensure that the following Python packages are installed:
+   ```bash
+    opencv-python-headless
+    numpy
+    matplotlib
+    torch
+    torchvision
+    Pillow
+    requests
+    ultralytics
+    ```
+   
 ### Inspect Subfolders:
 
 - **RecyclingRush:** Use the pre-packaged simulator by running the executable file inside this folder.
