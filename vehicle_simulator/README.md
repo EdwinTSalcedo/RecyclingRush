@@ -104,12 +104,39 @@ This project is an aquatic simulator developed in Unity with the primary goal of
 - Customize the Unity project as needed, taking into account environmental constraints and the power of your computer for ride performance.
 
 - For any questions or problems, contact the development team using the contact information provided in the README.
-##Scripts
-| **País** | **Capital** | **Población** |
-|---|---|---|
-| **España** | **Madrid** | **47,3 millones** |
-| **Francia** | **París** | **67,2 millones** |
-| **Alemania** | **Berlín** | **83,2 millones** |
+## File Overview
+
+### Files C#
+
+| **File** | **Type** | **Description** |
+|-----------|-----------|-----------|
+| CameraRotation.py | Camera | Adjust the vertical rotation of the camera in the validation environment to optimize image capture. |
+| Cameras.py | Camera | Switch between three camera types to change the perspective point for visualization. |
+| CaptureImage.py | Camera | Capture an image from the validation environment and save it in the computer's documents section.|
+| ImageCapture.py | Camera | Capture a series of images in the self-driving environment, including data such as robot speed and angle, and save the content in the computer's documents. |
+| Depthclient.py | Clients | Process three images simultaneously in each evaluation environment cycle for lentil and obstacle detection using stereo vision techniques. |
+| Effnetclient.py | Clients | Process one image in each evaluation environment cycle for lentil and obstacle detection using trained models. |
+| DuckweedCounter.py | DataEvaluation | Count the remaining and collected lentils in the evaluation environment. |
+| TimeManager.py | DataEvaluation | Track the elapsed time since the start of the evaluation environment journey, and provide controls to accelerate or decelerate it. |
+| AngleText.py | Interface | Display the robot's driving angle in the self-driving environment. |
+| TextController.py | Interface | Activate the sequence image capture process in the self-driving environment and rename the button accordingly. |
+| UI_HoldButton.py  |  Interface | Add an additional function to the buttons to detect continuous pressing. |
+| VelocityScript.py   | Interface | Display the robot's speed in the self-driving environment. |
+| ClearConsole.py   | Load Menu |Clear the Unity console each time an environment is initiated to prevent saturation |
+| LoadingScreenController.py   | Load Menu | Asynchronously initiate the environment, generating elements before starting.|
+| Closeprogram.py  | Main Menu |Close the application.|
+| Create_documents.py  | Main Menu |Create a container folder for files generated in each environment.|
+| Gameagain.py   | Main Menu |Save the startup configuration of the evaluation environment.|
+| SelectWorld.py  | Main Menu |Change the scenario as specified.|
+| Modality1.py  <br> Modality2.py  <br> Modality3.py  <br> Modality4.py  | Servers |Activate their respective servers based on the chosen mode in the evaluation environment.|
+| Nox.py  | System |Deactivate all elements in the current scenario.|
+| Rest.py  | System |Activate the stereo detection client.|
+| AutonomousMovement.py | Vehicle |Modify vehicle movement based on data received from the server.|
+| Floats.py | Vehicle |Simulate aquatic movement for the robot.|
+| Movement.py | Vehicle |Handle user-initiated vehicle movement.|
+
+
+
 
 ## Contributions
 If you wish to contribute to this project, please follow these guidelines:
