@@ -26,10 +26,10 @@ Last Updated: December 19th, 2023
 
 
 ## Description
-This project is an aquatic simulator developed in Unity with the primary goal of simulating an underwater environment where a virtual agent collects water lentils. The simulator incorporates advanced features, such as the use of external Python servers for integrating object detection models based on YOLOv5 and ResNet. Additionally, stereo cameras are utilized to enhance the agent's perception of the environment.
+This project is an aquatic simulator developed in Unity with the primary goal of simulating an underwater environment where a virtual agent collects water duckweeds. The simulator incorporates advanced features, such as the use of external Python servers for integrating object detection models based on YOLOv5 and ResNet. Additionally, stereo cameras are utilized to enhance the agent's perception of the environment.
 
 ## Features
-- **Water Lentil Collection:** The virtual agent is designed to efficiently collect water lentils in a simulated aquatic environment.
+- **Water duckweed Collection:** The virtual agent is designed to efficiently collect water duckweeds in a simulated aquatic environment.
 
 - **Integration of Detection Models:** External Python servers are employed to integrate object detection models based on YOLOv5 and ResNet. This enables the agent to detect and react to objects in its surroundings.
 
@@ -91,7 +91,7 @@ This project is an aquatic simulator developed in Unity with the primary goal of
 
 ### Python Models:
 
-- The Python models in the "servers" folder are used for water lentil and obstacle detection by the simulator.
+- The Python models in the "servers" folder are used for water duckweed and obstacle detection by the simulator.
 
 ### Unity Project:
 
@@ -110,34 +110,41 @@ This project is an aquatic simulator developed in Unity with the primary goal of
 
 | **File** | **Type** | **Description** |
 |-----------|-----------|-----------|
-| CameraRotation.py | Camera | Adjust the vertical rotation of the camera in the validation environment to optimize image capture. |
-| Cameras.py | Camera | Switch between three camera types to change the perspective point for visualization. |
-| CaptureImage.py | Camera | Capture an image from the validation environment and save it in the computer's documents section.|
-| ImageCapture.py | Camera | Capture a series of images in the self-driving environment, including data such as robot speed and angle, and save the content in the computer's documents. |
-| Depthclient.py | Clients | Process three images simultaneously in each evaluation environment cycle for lentil and obstacle detection using stereo vision techniques. |
-| Effnetclient.py | Clients | Process one image in each evaluation environment cycle for lentil and obstacle detection using trained models. |
-| DuckweedCounter.py | DataEvaluation | Count the remaining and collected lentils in the evaluation environment. |
-| TimeManager.py | DataEvaluation | Track the elapsed time since the start of the evaluation environment journey, and provide controls to accelerate or decelerate it. |
-| AngleText.py | Interface | Display the robot's driving angle in the self-driving environment. |
-| TextController.py | Interface | Activate the sequence image capture process in the self-driving environment and rename the button accordingly. |
-| UI_HoldButton.py  |  Interface | Add an additional function to the buttons to detect continuous pressing. |
-| VelocityScript.py   | Interface | Display the robot's speed in the self-driving environment. |
-| ClearConsole.py   | Load Menu |Clear the Unity console each time an environment is initiated to prevent saturation |
-| LoadingScreenController.py   | Load Menu | Asynchronously initiate the environment, generating elements before starting.|
-| Closeprogram.py  | Main Menu |Close the application.|
-| Create_documents.py  | Main Menu |Create a container folder for files generated in each environment.|
-| Gameagain.py   | Main Menu |Save the startup configuration of the evaluation environment.|
-| SelectWorld.py  | Main Menu |Change the scenario as specified.|
-| Modality1.py  <br> Modality2.py  <br> Modality3.py  <br> Modality4.py  | Servers |Activate their respective servers based on the chosen mode in the evaluation environment.|
-| Nox.py  | System |Deactivate all elements in the current scenario.|
-| Rest.py  | System |Activate the stereo detection client.|
-| AutonomousMovement.py | Vehicle |Modify vehicle movement based on data received from the server.|
-| Floats.py | Vehicle |Simulate aquatic movement for the robot.|
-| Movement.py | Vehicle |Handle user-initiated vehicle movement.|
+| CameraRotation.cs | Camera | Adjust the vertical rotation of the camera in the validation environment to optimize image capture. |
+| Cameras.cs | Camera | Switch between three camera types to change the perspective point for visualization. |
+| CaptureImage.cs | Camera | Capture an image from the validation environment and save it in the computer's documents section.|
+| ImageCapture.cs | Camera | Capture a series of images in the self-driving environment, including data such as robot speed and angle, and save the content in the computer's documents. |
+| Depthclient.cs | Clients | Process three images simultaneously in each evaluation environment cycle for duckweed and obstacle detection using stereo vision techniques. |
+| Effnetclient.cs | Clients | Process one image in each evaluation environment cycle for duckweed and obstacle detection using trained models. |
+| DuckweedCounter.cs | DataEvaluation | Count the remaining and collected duckweeds in the evaluation environment. |
+| TimeManager.cs | DataEvaluation | Track the elapsed time since the start of the evaluation environment journey, and provide controls to accelerate or decelerate it. |
+| AngleText.cs | Interface | Display the robot's driving angle in the self-driving environment. |
+| TextController.cs | Interface | Activate the sequence image capture process in the self-driving environment and rename the button accordingly. |
+| UI_HoldButton.cs  |  Interface | Add an additional function to the buttons to detect continuous pressing. |
+| VelocityScript.cs   | Interface | Display the robot's speed in the self-driving environment. |
+| ClearConsole.cs   | Load Menu |Clear the Unity console each time an environment is initiated to prevent saturation |
+| LoadingScreenController.cs   | Load Menu | Asynchronously initiate the environment, generating elements before starting.|
+| Closeprogram.cs  | Main Menu |Close the application.|
+| Create_documents.cs  | Main Menu |Create a container folder for files generated in each environment.|
+| Gameagain.cs   | Main Menu |Save the startup configuration of the evaluation environment.|
+| SelectWorld.cs  | Main Menu |Change the scenario as specified.|
+| Modality1.cs  <br> Modality2.cs  <br> Modality3.cs  <br> Modality4.cs  | Servers |Activate their respective servers based on the chosen mode in the evaluation environment.|
+| Nox.cs  | System |Deactivate all elements in the current scenario.|
+| Rest.cs  | System |Activate the stereo detection client.|
+| AutonomousMovement.cs | Vehicle |Modify vehicle movement based on data received from the server.|
+| Floats.cs | Vehicle |Simulate aquatic movement for the robot.|
+| Movement.cs | Vehicle |Handle user-initiated vehicle movement.|
 
+### Files Python
+| **File** | **Type** | **Description** |
+|-----------|-----------|-----------|
+| Servermodality1.py <br> Servermodality2.py <br> Servermodality3.py <br> Depthserver.py | Servers |The servers responsible for handling the processing of program images operate by utilizing models and stereo vision to detect duckweeds and their orientations.|
 
-
-
+### Files Model
+| **File** | **Type** | **Description** |
+|-----------|-----------|-----------|
+| Best.pt | Yolov8 |The YOLOv8 model tasked with detecting lentils in the processed images.|
+| Steering_estimator.pt | Resnet |The ResNet model designed to determine the correct angle for the robot to avoid obstacles.|
 ## Contributions
 If you wish to contribute to this project, please follow these guidelines:
 
