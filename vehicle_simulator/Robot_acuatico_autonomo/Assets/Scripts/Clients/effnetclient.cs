@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class effnetclient : MonoBehaviour
 {
     
-    public Movimiento_autonomo mov_auto;
+    public AutonomousMovement mov_auto;
     private RenderTexture renderTextures;
     private Texture2D textures;
     public Camera cameras; // Asigna tus cámaras en el inspector
@@ -30,7 +30,7 @@ public class effnetclient : MonoBehaviour
     void OnEnable()
     {
         GameObject objWithMovimientoAutonomo = GameObject.FindGameObjectWithTag("MovimientoAutonomo");
-        mov_auto = objWithMovimientoAutonomo.GetComponent<Movimiento_autonomo>();
+        mov_auto = objWithMovimientoAutonomo.GetComponent<AutonomousMovement>();
         cameras = GameObject.FindWithTag("camprin").GetComponent<Camera>();
         client = new TcpClient("localhost", 1024);
         stream = client.GetStream();
@@ -52,7 +52,7 @@ public class effnetclient : MonoBehaviour
         cont++;
         bytes = stream.Read(data, 0, data.Length);
         message = Encoding.ASCII.GetString(data, 0, bytes);
-        mov_auto.GirarHaciaAnguloAutonoma(float.Parse(message));
+        mov_auto.RotateToAutonomousAngle(float.Parse(message));
         data = null;
     }
 

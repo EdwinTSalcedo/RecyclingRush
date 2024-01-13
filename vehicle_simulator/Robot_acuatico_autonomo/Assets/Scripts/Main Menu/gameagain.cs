@@ -14,17 +14,17 @@ public class gameagain : MonoBehaviour
         bote.transform.rotation = Quaternion.Euler(Vector3.zero);
         ParticleSystem particleSystem =duckweed.GetComponent<ParticleSystem>();
    
-        contador_lenteja countduck = duckweed.GetComponent<contador_lenteja>();
-        time timescript= timeagain.GetComponent<time>();
-        countduck.duckweed = -1;
-        if(countduck.duckweed==0)
+        DuckweedCounter countduck = duckweed.GetComponent<DuckweedCounter>();
+        TimeManager timescript= timeagain.GetComponent<TimeManager>();
+        countduck.duckweedCount = -1;
+        if(countduck.duckweedCount==0)
         {
-            countduck.duckweed = 0;
+            countduck.duckweedCount = 0;
         }
         Time.timeScale = 1.0f;
         particleSystem.Stop();
         particleSystem.Clear();
         particleSystem.Play();
-        timescript.tiempoTranscurrido = 0f;
+        timescript.elapsedTimer = 0f;
     }
 }

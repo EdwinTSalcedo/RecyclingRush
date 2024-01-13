@@ -92,10 +92,10 @@ public class modality4 : MonoBehaviour
             // Check if it's time to clear the console
             if(Time.time >= clearconsole)
             {
-                if(script.contant <= script.cont)
+                if(script.constant <= script.cont)
                 {
                     // Log a message when the client is connected
-                    script.contant = script.cont;
+                    script.constant = script.cont;
                     UnityEngine.Debug.Log("Client connected");
                 }
                 else

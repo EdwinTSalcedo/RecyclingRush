@@ -43,15 +43,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0b1b9043d20e784fb2dd5315f5e8695, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mov_auto: {fileID: 0}
+  autonomousMovement: {fileID: 0}
   cameras:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  captureinterval: 1
-  clearinter: 0
+  captureInterval: 0.25
+  clearInterval: 0
   message: 
   binary: 0
-  contant: 0
+  constant: 0
   cont: 0
   reseting: {fileID: 0}
