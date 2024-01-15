@@ -1,10 +1,9 @@
 
-![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Recycling%20Rush&fontAlign=50&fontSize=50&fontAlignY=40&color=0:67DB7D,100:008fff&fontColor=FFFFFF)
+![waving](https://capsule-render.vercel.app/api?type=waving&height=160&text=%20Recycling%20Rush&fontAlign=50&fontSize=30&fontAlignY=30&color=00629B&fontColor=FFFFFF) 
 
 <p align="center">
-<img src="images/usv.png" alt="photo not available" width="70%" height="70%">
+<img src="images/main.gif" width="70%">
 </p>
-
 
 <div align="center">
   <a href="#Overview"><b>Overview</b></a> |
@@ -25,7 +24,7 @@ Consequenly, we propose an open-source unmanned surface vehicle (USV) for automa
 [Edwin Salcedo](), [Yamil Uchani](), [Misael Mamani](), and [Mariel Fernandez](),
 *Towards Continuous Floating Invasive Plant Removal Using Unmanned Surface Vehicles and Computer Vision*, IEEE Access 2024.
 
-[[Paper]]() [[Project page]]() 
+[[Paper]](https://ieeexplore.ieee.org/document/10385136) [[Video Abstract]](https://youtu.be/yTdTHCYgbhM) 
 
 # Citing
 
