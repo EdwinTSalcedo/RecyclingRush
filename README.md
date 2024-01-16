@@ -29,7 +29,10 @@ Consequently, we propose an open-source unmanned surface vehicle (USV) for autom
 # USV
 
 ## CAD Design
-![CAD DESIGN](https://media.giphy.com/media/UdUvtKM1NgC2zawLRk/giphy.gif)
+
+<p align="center">
+<img src="images/cad.gif" width="70%">
+</p>
 
 This section contains the CAD designs for the Unmanned Surface Vehicle (USV) proposed for the collection of duckweed. It includes all the parts that were used to 3D print the vehicle, such as the "Control Box", "Main Body", "Floaters", and "Main Grid".
 
@@ -67,6 +70,8 @@ The design was created in SolidWorks 2020, and it is recommended to use the same
 3. To view or modify individual parts, open the part (.SLDPRT) files.
 4. To view the complete assembly, open the `Assembly.SLDASM` file.
 
+## ROS system
+
 # SAE
 
 ## Framework
@@ -74,7 +79,7 @@ The design was created in SolidWorks 2020, and it is recommended to use the same
 Architectural layout encapsulating the three most essential components:
 
 - A duckweed detection model embedded inside an OAK-D camera. 
-- A steering angle classification model and a temporal weight module, namely *momentum*. Both embedded inside a jetson nano development card.   
+- A steering angle classification model and a temporal weight module, namely *momentum*. Both were embedded inside a jetson nano development card.   
 
 <p align="center">
 <img src="images/graphical_abstract.jpg" width="70%">
@@ -84,7 +89,7 @@ Architectural layout encapsulating the three most essential components:
 
 The database used for this model was built by scrapping images from Google Images and the [Global Biodiversity Information Facility](https://www.gbif.org/). The resulting 4,000 images were grouped into five categories according to the view-point of the duckweed colonies inside the samples: close, near-close, near-wide, wide, and empty. The final dataset is available [here](https://ieee-dataport.org/documents/duckweed-detection-dataset) (you'll need to create a IEEE Dataport account to access the dataset).
 
-What follows is the list of experiments and trained models to replicate the results obtained using Yolov5 the enhanced versions of the dataset: 
+What follows is the list of experiments and trained models to replicate the results obtained using Yolov5 and the augmented versions of the dataset: 
 
 #### Yolo v5
 
@@ -179,6 +184,79 @@ Our data preprocessing approach, as well as our Yolov5 and Yolov8 implementation
 ## Steering angle classification
 
 We tested two approaches for SAC: first, by collecting a syntethic dataset using a bespoke virtual environment and training DL classifiers. This approach, including object detection and moment, was named as *M3*. Then, we tried to classify steering angle using stereo vision along with object detection and momentum, which we later named *M4*. 
+
+The final dataset acquired for M3 can be shared upon request. The dataset weights 48.66 Gb in total, which prevented us to share it online. Yet, the results and pretrained models using general classifiers from [TorchVision](https://pytorch.org/vision/stable/models.html) are available below: 
+
+<table>
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Weights</th>
+            <th>Accuracy</th>
+			<th>Recall</th>
+			<th>Precision</th>
+			<th>Sensitivity</th>
+			<th>F1-score</th>
+			<th>Weight</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Resnet50</td>
+			<td><a href='https://drive.google.com/file/d/1-XXRvScte3hGKhIU1JHtgmWRLVd9_I6G/view?usp=share_link'>Gdrive</a></td>
+			<td>0.794</td>
+			<td>0.793</td>
+			<td>0.966</td>
+			<td>0.792</td>
+			<td>0.794</td>
+			<td>90</td>
+        </tr>
+        <tr>
+            <td>Resnet101</td>
+			<td><a href='https://drive.google.com/file/d/1--Swga_5dJev-ckSsFyW4pZwi8P8LVhq/view?usp=share_link'>Gdrive</a></td>
+			<td>0.812</td>
+			<td>0.812</td>
+			<td>0.969</td>
+			<td>0.787</td>
+			<td>0.812</td>
+			<td>162.7</td>
+        </tr>
+		<tr>
+            <td><b>EfficientNetv2m</b></td>
+			<td><a href='https://drive.google.com/file/d/1-B2m77NeZ-4KC3nGuDSAE6xScPT7aJOq/view?usp=share_link'>Gdrive</a></td>
+			<td>0.831</td>
+			<td>0.831</td>
+			<td>0.972</td>
+			<td>0.833</td>
+			<td>0.831</td>
+			<td>203.1</td>
+        </tr>
+		<tr>
+            <td>ConvNext</td>
+			<td><a href='https://drive.google.com/file/d/1-21ywiqcYUKKyIO_cUiHuwNa4Tmsfi4z/view'>Gdrive</a></td>
+			<td>0.736</td>
+			<td>0.735</td>
+			<td>0.956</td>
+			<td>0.734</td>
+			<td>0.736</td>
+			<td>334.2</td>
+        </tr>
+		<tr>
+            <td>ResNext</td>
+			<td><a href='https://drive.google.com/file/d/1-5KqXbvpMumVHhgMUWskqJiNjYtchwWh/view?usp=share_link'>Gdrive</a></td>
+			<td>0.824</td>
+			<td>0.826</td>
+			<td>0.971</td>
+			<td>0.825</td>
+			<td>0.824</td>
+			<td>331.9</td>
+        </tr>
+    </tbody>
+</table>
+
+# Simulator
+
+# Results
 
 # Citing
 
