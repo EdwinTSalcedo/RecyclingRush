@@ -16,10 +16,10 @@
 
 # Overview
 
-Deficient domestic wastewater management, industrial waste, and floating debris are some leading factors that contribute to inland water pollution. The surplus of minerals and nutrients in overly contaminated zones can lead to the invasion of  floating weeds. *Lemnoideae*, commonly known as duckweed, is a family of floating plants that has no leaves or stems and forms dense colonies with a fast growth rate. If not controlled, duckweed establishes a green layer on the surface and depletes fish and other organisms of oxygen and sunlight.
+Deficient domestic wastewater management, industrial waste, and floating debris are some leading factors that contribute to inland water pollution. The surplus of minerals and nutrients in overly contaminated zones can lead to the invasion of floating weeds. *Lemnoideae*, commonly known as duckweed, is a family of floating plants that has no leaves or stems and forms dense colonies with a fast growth rate. If not controlled, duckweed establishes a green layer on the surface and depletes fish and other organisms of oxygen and sunlight.
 
 
-Consequenly, we propose an open-source unmanned surface vehicle (USV) for automatic duckweed removal that costs less than $500. The USV uses 3D printed parts and common components that can be easily purchased. It is worth mentioning that the proposed approach won the First Global Prize in the [OpenCV AI Competition 2022](https://opencv.org/core-opencv/), organized by the [OpenCV Foundation](https://opencv.org/). Moreover, further prototyping details and testing results are available in the paper: 
+Consequently, we propose an open-source unmanned surface vehicle (USV) for automatic duckweed removal that costs less than $500. The USV uses 3D-printed parts and common components that can be easily purchased. It is worth mentioning that the proposed approach won the First Global Prize in the [OpenCV AI Competition 2022](https://opencv.org/core-opencv/), organized by the [OpenCV Foundation](https://opencv.org/). Moreover, further prototyping details and testing results are available in the paper: 
 
 [Edwin Salcedo](https://www.linkedin.com/in/edwinsalcedo/), [Yamil Uchani](https://www.linkedin.com/in/yamiluchani), [Misael Mamani](https://www.linkedin.com/in/misaelmq680), and [Mariel Fernandez](https://www.linkedin.com/in/mariel-fernandez-baldivieso-7ba9a0263),
 *Towards Continuous Floating Invasive Plant Removal Using Unmanned Surface Vehicles and Computer Vision*, IEEE Access 2024.
@@ -67,20 +67,132 @@ The design was created in SolidWorks 2020, and it is recommended to use the same
 3. To view or modify individual parts, open the part (.SLDPRT) files.
 4. To view the complete assembly, open the `Assembly.SLDASM` file.
 
+# SAE
+
+## Framework
+
+Architectural layout encapsulating the three most essential components:
+
+- A duckweed detection model embedded inside an OAK-D camera. 
+- A steering angle classification model and a temporal weight module, namely *momentum*. Both embedded inside a jetson nano development card.   
+
+<p align="center">
+<img src="images/graphical_abstract.jpg" width="70%">
+</p>
+
+## Duckweed detection
+
+The database used for this model was built by scrapping images from Google Images and the [Global Biodiversity Information Facility](https://www.gbif.org/). The resulting 4,000 images were grouped into five categories according to the view-point of the duckweed colonies inside the samples: close, near-close, near-wide, wide, and empty. The final dataset is available [here](https://ieee-dataport.org/documents/duckweed-detection-dataset) (you'll need to create a IEEE Dataport account to access the dataset).
+
+What follows is the list of experiments and trained models to replicate the results obtained using Yolov5 the enhanced versions of the dataset: 
+
+#### Yolo v5
+
+<table>
+    <thead>
+        <tr>
+            <th>Dataset</th>
+            <th>Weights</th>
+            <th>IoU</th>
+			<th>mAP</th>
+			<th>Accuracy</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Only real</td>
+			<td><a href='https://drive.google.com/file/d/1-WlrXWoTPu3yEuURRsOsNEjTxwbRDJd6/view?usp=sharing'>Gdrive</a></td>
+			<td>0.7431</td>
+			<td>0.6426</td>
+			<td>0.7276</td>
+        </tr>
+        <tr>
+			<td>Only virtual </td>
+            <td><a href='https://drive.google.com/file/d/1-w_Ewk6iC9fOJJ1V7Cs3zVUpBro9w3ZQ/view?usp=drive_link'>Gdrive</a></td>
+			<td>0.8191</td>
+			<td>0.6487</td>
+			<td>0.8092</td>
+        </tr>
+        <tr>
+            <td>Real + Virtual</td>
+			<td><a href='https://drive.google.com/file/d/1-sHAc9iJtIiQfX_DbvE2BOccPEIdxtKX/view?usp=sharing'>Gdrive</a></td>
+			<td>0.8502</td>
+			<td>0.878</td>
+			<td>0.8327</td>
+        </tr>
+        <tr>
+            <td>Real + Virtual + Data Augmentation</td>
+			<td><a href='https://drive.google.com/file/d/1-cMYuxlzFK7b9STXs7TAoE3pCXD3WU7e/view?usp=sharing'>Gdrive</a></td>
+			<td>0.8625</td>
+			<td>0.866</td>
+			<td>0.8472</td>
+        </tr>
+    </tbody>
+</table>
+
+#### Yolo v8
+
+<table>
+    <thead>
+        <tr>
+            <th>Dataset</th>
+            <th>Weights</th>
+            <th>IoU</th>
+			<th>mAP</th>
+			<th>Accuracy</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Only real</td>
+			<td><a href='https://drive.google.com/file/d/1-kfFqMVYUzkwqlPPUIsO2SqbYUKPw2VY/view?usp=drive_link'>Gdrive</a></td>
+			<td>0.8756</td>
+			<td>0.7779</td>
+			<td>0.8588</td>
+        </tr>
+        <tr>
+			<td>Only virtual </td>
+            <td><a href='https://drive.google.com/file/d/1DNfr5-64qjNELy2xFfFHN2N_WPpo_HfF/view?usp=drive_link'>Gdrive</a></td>
+			<td>0.874</td>
+			<td>0.6016</td>
+			<td>0.8889</td>
+        </tr>
+        <tr>
+            <td>Real + Virtual</td>
+			<td><a href='https://drive.google.com/file/d/1-iBiTEx8Cba_mg1a6Kqz7WGS8SG289pw/view?usp=sharing'>Gdrive</a></td>
+			<td>0.8085</td>
+			<td>0.6903</td>
+			<td>0.7878</td>
+        </tr>
+        <tr>
+            <td><b>Real + Virtual + Data Augmentation</b></td>
+			<td><a href='https://drive.google.com/file/d/1-R5eD4rBFjyCe5hp8DqntJTGVIdF3kmn/view?usp=sharing'>Gdrive</a></td>
+			<td>0.8942</td>
+			<td>0.7992</td>
+			<td>0.8796</td>
+        </tr>
+    </tbody>
+</table>
+
+Our data preprocessing approach, as well as our Yolov5 and Yolov8 implementations can be found [here](https://github.com/EdwinTSalcedo/RecyclingRush/tree/master/duckweed_detection). 
+
+## Steering angle classification
+
+We tested two approaches for SAC: first, by collecting a syntethic dataset using a bespoke virtual environment and training DL classifiers. This approach, including object detection and moment, was named as *M3*. Then, we tried to classify steering angle using stereo vision along with object detection and momentum, which we later named *M4*. 
 
 # Citing
 
-If you find our work useful in your project, please consider to cite the following paper. Give RecyclingRush a star ⭐ on GitHub and share it with your friends and colleagues. With your support, we can continue to innovate and push the boundaries of what's possible in water quality management research using autonomous vehicles.
+If you find our work useful in your project, please consider to cite the following paper. Give RecyclingRush a star ⭐ on GitHub and share it with your friends and colleagues. With your support, we can continue to innovate in the field of autonomous vehicles for water quality management.
 
 ```
 @article{salcedo2024,
-	author={Salcedo, Edwin and Uchani, Yamil and Mamani, Misael and Fernandez, Mariel},
-	title={Towards Continuous Floating Invasive Plant Removal Using Unmanned Surface Vehicles and Computer Vision},
-	journal={IEEE Access},
-	year={2024},
-	number={1},
-	doi={10.1109/ACCESS.2024.3351764},
-	url={https://doi.org/10.1109/ACCESS.2024.3351764}
+  title={Towards Continuous Floating Invasive Plant Removal Using Unmanned Surface Vehicles and Computer Vision},
+  author={Salcedo, Edwin and Uchani, Yamil and Mamani, Misael and Fernandez, Mariel},
+  journal={IEEE Access},
+  year={2024},
+  publisher={IEEE},
+  doi={10.1109/ACCESS.2024.3351764},
+  url={https://doi.org/10.1109/ACCESS.2024.3351764}
 }
 ```
 
