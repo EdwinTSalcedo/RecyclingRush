@@ -15,6 +15,9 @@ TagManager:
   - MovimientoAutonomo
   - point
   - object
+  - PathCamera
+  - Stereo1
+  - Stereo2
   layers:
   - Default
   - TransparentFX
@@ -25,8 +28,8 @@ TagManager:
   - RenderOnTop
   - Terrain
   - Objects
-  - 
-  - 
+  - Arrow
+  - Limits
   - 
   - 
   - 

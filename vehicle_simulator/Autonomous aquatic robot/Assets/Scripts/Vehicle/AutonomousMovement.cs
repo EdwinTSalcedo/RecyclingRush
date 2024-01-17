@@ -249,12 +249,9 @@ public class AutonomousMovement : MonoBehaviour
                     plane2.GetComponent<BoxCollider>().enabled = false;
                     plane3.GetComponent<BoxCollider>().enabled = false;
                 }
-
-                if (Time.time - lastDetectionTime >= waitInterval)
-                {
-                    stopped = true;
-                    lastDetectionTime = Time.time;
-                }
+                stopped = true;
+                rotating = true;
+                lastDetectionTime = Time.time;
             }
         }
         else

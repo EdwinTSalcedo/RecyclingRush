@@ -92,7 +92,7 @@ public class TimeManager : MonoBehaviour
             UpdateCount();
         }
 
-        if (particleCounter.particleCount < 30 && minutes > 2)
+        if (particleCounter.particleCount < 70 && minutes > 2)
         {
             SaveData();
             particleCounter.saveData = true;
