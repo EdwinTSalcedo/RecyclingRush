@@ -110,9 +110,9 @@ def obtain_angle_from_stereo(img1, img2):
             group = promedio_columnas[i:i + group_size]
             average = sum(group) / len(group)
             averaged_promedios.append(average)
-        #for i in range(len(averaged_promedios)):
-        #    if averaged_promedios[i] < 40:
-        #        averaged_promedios[i] = 0
+        for i in range(len(averaged_promedios)):
+            if averaged_promedios[i] < 40:
+                averaged_promedios[i] = 0
         todos_son_cero = all(valor == 0 for valor in averaged_promedios)
         min_value = min(averaged_promedios)
         print(averaged_promedios)

@@ -1,0 +1,2652 @@
+fileFormatVersion: 2
+guid: 1b58ab2b3c75de54bb5029e534f14016
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 156861188499001565
+    second: duckweed_3_0
+  - first:
+      213: -3261513290294242832
+    second: duckweed_3_1
+  - first:
+      213: -208086376049434947
+    second: duckweed_3_2
+  - first:
+      213: -3904497552542609585
+    second: duckweed_3_3
+  - first:
+      213: -867188395967158419
+    second: duckweed_3_4
+  - first:
+      213: 4713164336846942094
+    second: duckweed_3_5
+  - first:
+      213: -3888022179992197093
+    second: duckweed_3_6
+  - first:
+      213: -6110626895578919893
+    second: duckweed_3_7
+  - first:
+      213: 2307505302558220843
+    second: duckweed_3_8
+  - first:
+      213: -2937396958678655018
+    second: duckweed_3_9
+  - first:
+      213: 4532689553038698056
+    second: duckweed_3_10
+  - first:
+      213: 650066463181354142
+    second: duckweed_3_11
+  - first:
+      213: -305540825992169998
+    second: duckweed_3_12
+  - first:
+      213: 3684755527350237764
+    second: duckweed_3_13
+  - first:
+      213: -4100394476850360595
+    second: duckweed_3_14
+  - first:
+      213: -5553936134886750428
+    second: duckweed_3_15
+  - first:
+      213: 5368395587595407768
+    second: duckweed_3_16
+  - first:
+      213: -6883954616558464847
+    second: duckweed_3_17
+  - first:
+      213: -6749624272590590313
+    second: duckweed_3_18
+  - first:
+      213: 3048560334310756461
+    second: duckweed_3_19
+  - first:
+      213: 2214953961087424669
+    second: duckweed_3_20
+  - first:
+      213: -2498841006768467034
+    second: duckweed_3_21
+  - first:
+      213: 3550476610865384853
+    second: duckweed_3_22
+  - first:
+      213: -2852600237599583484
+    second: duckweed_3_23
+  - first:
+      213: 1835070156868167036
+    second: duckweed_3_24
+  - first:
+      213: -2581927314943209346
+    second: duckweed_3_25
+  - first:
+      213: -572777803080358493
+    second: duckweed_3_26
+  - first:
+      213: 2872711494519505836
+    second: duckweed_3_27
+  - first:
+      213: -4137536049380146184
+    second: duckweed_3_28
+  - first:
+      213: -1685251927342189857
+    second: duckweed_3_29
+  - first:
+      213: 5022018242176124734
+    second: duckweed_3_30
+  - first:
+      213: -6307733369370227049
+    second: duckweed_3_31
+  - first:
+      213: 7819483555670224249
+    second: duckweed_3_32
+  - first:
+      213: 849742439313483639
+    second: duckweed_3_33
+  - first:
+      213: -1355328312304511366
+    second: duckweed_3_34
+  - first:
+      213: -3799879237335777608
+    second: duckweed_3_35
+  - first:
+      213: -952155952461366613
+    second: duckweed_3_36
+  - first:
+      213: -1620403254914676440
+    second: duckweed_3_37
+  - first:
+      213: -2783773760825615040
+    second: duckweed_3_38
+  - first:
+      213: 6978322811359567679
+    second: duckweed_3_39
+  - first:
+      213: 8306999635004461455
+    second: duckweed_3_40
+  - first:
+      213: 32329433079332422
+    second: duckweed_3_41
+  - first:
+      213: 913448738958784202
+    second: duckweed_3_42
+  - first:
+      213: -5636444087580040011
+    second: duckweed_3_43
+  - first:
+      213: -5282218161215267443
+    second: duckweed_3_44
+  - first:
+      213: 7296451109390778615
+    second: duckweed_3_45
+  - first:
+      213: 3916027013802096624
+    second: duckweed_3_46
+  - first:
+      213: -1880371797721397931
+    second: duckweed_3_47
+  - first:
+      213: -7693150901390449206
+    second: duckweed_3_48
+  - first:
+      213: -6675665046129227676
+    second: duckweed_3_49
+  - first:
+      213: -818336989553464761
+    second: duckweed_3_50
+  - first:
+      213: 707672299171484848
+    second: duckweed_3_51
+  - first:
+      213: 471454068714302422
+    second: duckweed_3_52
+  - first:
+      213: -1001671746209648851
+    second: duckweed_3_53
+  - first:
+      213: 6024672417898346525
+    second: duckweed_3_54
+  - first:
+      213: 5267557185189944013
+    second: duckweed_3_55
+  - first:
+      213: -4210394865364920016
+    second: duckweed_3_56
+  - first:
+      213: 3143734221963506481
+    second: duckweed_3_57
+  - first:
+      213: 4514654264733353711
+    second: duckweed_3_58
+  - first:
+      213: -5720087599959966790
+    second: duckweed_3_59
+  - first:
+      213: -69533994654799296
+    second: duckweed_3_60
+  - first:
+      213: 1215444667403083989
+    second: duckweed_3_61
+  - first:
+      213: 805489805718175636
+    second: duckweed_3_62
+  - first:
+      213: -210498867034896071
+    second: duckweed_3_63
+  - first:
+      213: 7432832552785233828
+    second: duckweed_3_64
+  - first:
+      213: 1300144443555231433
+    second: duckweed_3_65
+  - first:
+      213: -3416626562963171346
+    second: duckweed_3_66
+  - first:
+      213: 1366099659789790070
+    second: duckweed_3_67
+  - first:
+      213: -2374747347887969781
+    second: duckweed_3_68
+  - first:
+      213: 8699478620757525622
+    second: duckweed_3_69
+  - first:
+      213: 2404654210542814352
+    second: duckweed_3_70
+  - first:
+      213: 5710241697142725301
+    second: duckweed_3_71
+  - first:
+      213: 3464636073169348587
+    second: duckweed_3_72
+  - first:
+      213: 7691614579061674758
+    second: duckweed_3_73
+  - first:
+      213: -3068299991668543541
+    second: duckweed_3_74
+  - first:
+      213: -7338260184208145348
+    second: duckweed_3_75
+  - first:
+      213: 9040243532595946444
+    second: duckweed_3_76
+  - first:
+      213: -7573055571635717118
+    second: duckweed_3_77
+  - first:
+      213: -5265701384556016953
+    second: duckweed_3_78
+  - first:
+      213: 3925913262281063600
+    second: duckweed_3_79
+  - first:
+      213: 8776071659985274477
+    second: duckweed_3_80
+  - first:
+      213: 6606732558714741209
+    second: duckweed_3_81
+  - first:
+      213: -8608818291530343088
+    second: duckweed_3_82
+  - first:
+      213: -125048231701096629
+    second: duckweed_3_83
+  - first:
+      213: 8085438556423306395
+    second: duckweed_3_84
+  - first:
+      213: 2187122838153819631
+    second: duckweed_3_85
+  - first:
+      213: 214506291307014082
+    second: duckweed_3_86
+  - first:
+      213: -2232333295336838492
+    second: duckweed_3_87
+  - first:
+      213: 1000577794473001063
+    second: duckweed_3_88
+  - first:
+      213: 1552125931207853278
+    second: duckweed_3_89
+  - first:
+      213: 3034618981239882872
+    second: duckweed_3_90
+  - first:
+      213: -909806865118672325
+    second: duckweed_3_91
+  - first:
+      213: 3653678358695176793
+    second: duckweed_3_92
+  - first:
+      213: 9130797251586275280
+    second: duckweed_3_93
+  - first:
+      213: -7199786511790823738
+    second: duckweed_3_94
+  - first:
+      213: -8379526287618451115
+    second: duckweed_3_95
+  - first:
+      213: -5241568124186821181
+    second: duckweed_3_96
+  - first:
+      213: -6911099030047173602
+    second: duckweed_3_97
+  - first:
+      213: -6702499244126191927
+    second: duckweed_3_98
+  - first:
+      213: -7015642360172671096
+    second: duckweed_3_99
+  - first:
+      213: -4838754370770924935
+    second: duckweed_3_100
+  - first:
+      213: -1545258366684968581
+    second: duckweed_3_101
+  - first:
+      213: 802908195383668160
+    second: duckweed_3_102
+  - first:
+      213: -8773218216420438429
+    second: duckweed_3_103
+  - first:
+      213: 3652808875343924994
+    second: duckweed_3_104
+  - first:
+      213: -571760155188335058
+    second: duckweed_3_105
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: duckweed_3_0
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 993
+        width: 39
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0578b7b684d2200800000000000000
+      internalID: 156861188499001565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 989
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1dbc551f6ccb2d0800000000000000
+      internalID: -3261513290294242832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_2
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 993
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe99f02b8abc1df0800000000000000
+      internalID: -208086376049434947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_3
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 995
+        width: 30
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fc052b92070d9c0800000000000000
+      internalID: -3904497552542609585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_4
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 760
+        width: 360
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6769099fb027f3f0800000000000000
+      internalID: -867188395967158419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_5
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 978
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f2dc13ef5886140800000000000000
+      internalID: 4713164336846942094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_6
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 982
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18a9ba4d68fa0ac0800000000000000
+      internalID: -3888022179992197093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_7
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 963
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c0216c631b23ba0800000000000000
+      internalID: -6110626895578919893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_8
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 943
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b222054d8d7e50020800000000000000
+      internalID: 2307505302558220843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_9
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 954
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df55a177054c37d0800000000000000
+      internalID: -2937396958678655018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_10
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 943
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846eefd122957ee30800000000000000
+      internalID: 4532689553038698056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_11
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 952
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94b15a0100850900800000000000000
+      internalID: 650066463181354142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_12
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 938
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f57b52dc3082cbf0800000000000000
+      internalID: -305540825992169998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_13
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 938
+        width: 4
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a3ed321a1e22330800000000000000
+      internalID: 3684755527350237764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_14
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 947
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee4c58b2f87817c0800000000000000
+      internalID: -4100394476850360595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_15
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 945
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4278ed6e2847ce2b0800000000000000
+      internalID: -5553936134886750428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_16
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 943
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891166c085f508a40800000000000000
+      internalID: 5368395587595407768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_17
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 930
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b05f1ebfb74770a0800000000000000
+      internalID: -6883954616558464847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_18
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 762
+        width: 151
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e22e03c748452a0800000000000000
+      internalID: -6749624272590590313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_19
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 935
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6050fad879ae4a20800000000000000
+      internalID: 3048560334310756461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_20
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 914
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98d57c64e81dbe10800000000000000
+      internalID: 2214953961087424669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_21
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 915
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3d2610855525dd0800000000000000
+      internalID: -2498841006768467034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_22
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 910
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dc6f59aa3d54130800000000000000
+      internalID: 3550476610865384853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 714
+        width: 150
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4039ea792378968d0800000000000000
+      internalID: -2852600237599583484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_24
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 889
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c752c06c59a777910800000000000000
+      internalID: 1835070156868167036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 890
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e709ee469c62b2cd0800000000000000
+      internalID: -2581927314943209346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_26
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 894
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5aa207f951d08f0800000000000000
+      internalID: -572777803080358493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_27
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 891
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3440d42ebedd720800000000000000
+      internalID: 2872711494519505836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_28
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 895
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3c25b72e48496c0800000000000000
+      internalID: -4137536049380146184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_29
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 890
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2f9b90d48cc98e0800000000000000
+      internalID: -1685251927342189857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_30
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 883
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e378074cbfac1b540800000000000000
+      internalID: 5022018242176124734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_31
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 885
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e4fcc9bed6678a0800000000000000
+      internalID: -6307733369370227049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_32
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 886
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d6bbe4dd2648c60800000000000000
+      internalID: 7819483555670224249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_33
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 863
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777aad51f34eacb00800000000000000
+      internalID: 849742439313483639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_34
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 859
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a765f0fa418e03de0800000000000000
+      internalID: -1355328312304511366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 841
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bef73d57fd144bc0800000000000000
+      internalID: -3799879237335777608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_36
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 851
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa34cab43349c2f0800000000000000
+      internalID: -952155952461366613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 825
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8298ced23db2389e0800000000000000
+      internalID: -1620403254914676440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_38
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 836
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d9fea738c0e59d0800000000000000
+      internalID: -2783773760825615040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_39
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 825
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f971bcf9bf7d060800000000000000
+      internalID: 6978322811359567679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_40
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 822
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f819db9d724684370800000000000000
+      internalID: 8306999635004461455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_41
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 819
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ebb76b27bd27000800000000000000
+      internalID: 32329433079332422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_42
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 793
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6ba26d9c83dac00800000000000000
+      internalID: 913448738958784202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 795
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4e07b27f357c1b0800000000000000
+      internalID: -5636444087580040011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_44
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 801
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d95aa919ac1b6b0800000000000000
+      internalID: -5282218161215267443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_45
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 793
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f00e3030a3324560800000000000000
+      internalID: 7296451109390778615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_46
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 786
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7f18032d5885630800000000000000
+      internalID: 3916027013802096624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_47
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 797
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555472700d397e5e0800000000000000
+      internalID: -1880371797721397931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_48
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 778
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac56527e3007c3590800000000000000
+      internalID: -7693150901390449206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_49
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 775
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468c9fd72064b53a0800000000000000
+      internalID: -6675665046129227676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_50
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 773
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a6a1ff7dea4a4f0800000000000000
+      internalID: -818336989553464761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_51
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 755
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b41089e43822d900800000000000000
+      internalID: 707672299171484848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_52
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 758
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbe0a54af0fa8600800000000000000
+      internalID: 471454068714302422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_53
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 740
+        width: 4
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fe0a99ad85912f0800000000000000
+      internalID: -1001671746209648851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_54
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 763
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18bcecd4afeb9350800000000000000
+      internalID: 6024672417898346525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_55
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 751
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca9d49e95f1a1940800000000000000
+      internalID: 5267557185189944013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_56
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 759
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0399bc57d2ca195c0800000000000000
+      internalID: -4210394865364920016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_57
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 757
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133bf506e99c0ab20800000000000000
+      internalID: 3143734221963506481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_58
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 753
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe64225522647ae30800000000000000
+      internalID: 4514654264733353711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_59
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 753
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbf44852aa2e90b0800000000000000
+      internalID: -5720087599959966790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_60
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 755
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a69c44337f80ff0800000000000000
+      internalID: -69533994654799296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_61
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 729
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d024bc3c702ed010800000000000000
+      internalID: 1215444667403083989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_62
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 740
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fb70ce5bcad2b00800000000000000
+      internalID: 805489805718175636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_63
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 737
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93943cc4568241df0800000000000000
+      internalID: -210498867034896071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_64
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 719
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a749bf63d9b62760800000000000000
+      internalID: 7432832552785233828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_65
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 725
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6bec2ab7a0b0210800000000000000
+      internalID: 1300144443555231433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_66
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 713
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee79a683e34b590d0800000000000000
+      internalID: -3416626562963171346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_67
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 713
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b6d85176c55f210800000000000000
+      internalID: 1366099659789790070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_68
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 570
+        width: 168
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a26d97ed33b0fd0800000000000000
+      internalID: -2374747347887969781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_69
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 726
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6748b59b6b1cab870800000000000000
+      internalID: 8699478620757525622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_70
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 703
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0944d0b934c0f5120800000000000000
+      internalID: 2404654210542814352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_71
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 703
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bad0d3c19ade3f40800000000000000
+      internalID: 5710241697142725301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_72
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 697
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be76341f62cd41030800000000000000
+      internalID: 3464636073169348587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_73
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 655
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603df2e25ba1eba60800000000000000
+      internalID: 7691614579061674758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_74
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 382
+        width: 264
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf23440a653b65d0800000000000000
+      internalID: -3068299991668543541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_75
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 667
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3481e20e33492a90800000000000000
+      internalID: -7338260184208145348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_76
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 674
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3676b7895657d70800000000000000
+      internalID: 9040243532595946444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_77
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 606
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c3c54d41a17e690800000000000000
+      internalID: -7573055571635717118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_78
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 657
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca81485d787ce6b0800000000000000
+      internalID: -5265701384556016953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_79
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 601
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcf149cf45ab7630800000000000000
+      internalID: 3925913262281063600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_80
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 609
+        width: 51
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d668bc85daedac970800000000000000
+      internalID: 8776071659985274477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_81
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 671
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d123381244dfab50800000000000000
+      internalID: 6606732558714741209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_82
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 601
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05dd2751065578880800000000000000
+      internalID: -8608818291530343088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_83
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 330
+        width: 228
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b475aa9bb4db34ef0800000000000000
+      internalID: -125048231701096629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_84
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 285
+        width: 371
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cbbd0578f353070800000000000000
+      internalID: 8085438556423306395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_85
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 542
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe57d4822a83a5e10800000000000000
+      internalID: 2187122838153819631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_86
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 527
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7e07fd5541af200800000000000000
+      internalID: 214506291307014082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 495
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaab2ff1b82501e0800000000000000
+      internalID: -2232333295336838492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_88
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 500
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76005b9e334c2ed00800000000000000
+      internalID: 1000577794473001063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_89
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 491
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed401589f424a8510800000000000000
+      internalID: 1552125931207853278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_90
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 344
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8740675a2e12d1a20800000000000000
+      internalID: 3034618981239882872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_91
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 58
+        width: 189
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ac36ef977bf53f0800000000000000
+      internalID: -909806865118672325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_92
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 287
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95aee85fb1974b230800000000000000
+      internalID: 3653678358695176793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_93
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 199
+        width: 12
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7b9e829bb17be70800000000000000
+      internalID: 9130797251586275280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_94
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 280
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c62f0a4058351c90800000000000000
+      internalID: -7199786511790823738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_95
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 263
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5595470fc31f5bb80800000000000000
+      internalID: -8379526287618451115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_96
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 254
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd75d3ef853247b0800000000000000
+      internalID: -5241568124186821181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_97
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 256
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14dd7a7c08d610a0800000000000000
+      internalID: -6911099030047173602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_98
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 236
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ceb886e270fbf2a0800000000000000
+      internalID: -6702499244126191927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_99
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 202
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f89b2a17e63ae90800000000000000
+      internalID: -7015642360172671096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_100
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 219
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a84de598a49dcb0800000000000000
+      internalID: -4838754370770924935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_101
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 37
+        width: 317
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79ca8fd3b32e8ae0800000000000000
+      internalID: -1545258366684968581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_102
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 117
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cde71defb0842b00800000000000000
+      internalID: 802908195383668160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_103
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 122
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e0641c3844f3680800000000000000
+      internalID: -8773218216420438429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_104
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 113
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fc447915261b230800000000000000
+      internalID: 3652808875343924994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckweed_3_105
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 103
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ee64d0b23b018f0800000000000000
+      internalID: -571760155188335058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8bd007cb51ef88045a3e15ae46e1f75c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -17,8 +17,8 @@ Last Updated: December 19th, 2023
 ## Additional Images
 
 <p align="center">
-  <img src="Images/CAD.png" alt="CAD Design" width="400" style="margin-right: 20px;"/>
-  <img src="Images/Sim.png" alt="Simulator" width="400"/>
+  <img src="Images/CAD.png" alt="CAD Design" width="350" style="margin-right: 20px;"/>
+  <img src="Images/Sim.png" alt="Simulator" width="350"/>
 </p>
 
 <p align="center">
@@ -27,10 +27,10 @@ Last Updated: December 19th, 2023
 
 
 ## Description
-This project is an aquatic simulator developed in Unity with the primary goal of simulating an underwater environment where a virtual agent collects water lentils. The simulator incorporates advanced features, such as the use of external Python servers for integrating object detection models based on YOLOv5 and ResNet. Additionally, stereo cameras are utilized to enhance the agent's perception of the environment.
+This project is an aquatic simulator developed in Unity with the primary goal of simulating an underwater environment where a virtual agent collects water duckweeds. The simulator incorporates advanced features, such as the use of external Python servers for integrating object detection models based on YOLOv5 and ResNet. Additionally, stereo cameras are utilized to enhance the agent's perception of the environment.
 
 ## Features
-- **Water Lentil Collection:** The virtual agent is designed to efficiently collect water lentils in a simulated aquatic environment.
+- **Water duckweed Collection:** The virtual agent is designed to efficiently collect water duckweeds in a simulated aquatic environment.
 
 - **Integration of Detection Models:** External Python servers are employed to integrate object detection models based on YOLOv5 and ResNet. This enables the agent to detect and react to objects in its surroundings.
 
@@ -56,7 +56,18 @@ This project is an aquatic simulator developed in Unity with the primary goal of
     ```bash
     pip install -r requirements.txt
     ```
-
+4. Additionally, ensure that the following Python packages are installed:
+   ```bash
+    opencv-python-headless
+    numpy
+    matplotlib
+    torch
+    torchvision
+    Pillow
+    requests
+    ultralytics
+    ```
+   
 ### Inspect Subfolders:
 
 - **RecyclingRush:** Use the pre-packaged simulator by running the executable file inside this folder.
@@ -92,7 +103,7 @@ This project is an aquatic simulator developed in Unity with the primary goal of
 
 ### Python Models:
 
-- The Python models in the "servers" folder are used for water lentil and obstacle detection by the simulator.
+- The Python models in the "servers" folder are used for water duckweed and obstacle detection by the simulator.
 
 ### Unity Project:
 
@@ -105,13 +116,143 @@ This project is an aquatic simulator developed in Unity with the primary goal of
 - Customize the Unity project as needed, taking into account environmental constraints and the power of your computer for ride performance.
 
 - For any questions or problems, contact the development team using the contact information provided in the README.
-## Scripts
-| Encabezado 1 | Encabezado 2 | Encabezado 3 |
-| ------------ | ------------ | ------------ |
-| Celda 1,1    | Celda 1,2    | Celda 1,3    |
-| Celda 2,1    | Celda 2,2    | Celda 2,3    |
-| Celda 3,1    | Celda 3,2    | Celda 3,3    |
+ 
+## Environments
 
+Three different modes are available in the main menu of the simulator, each of which serves a specific function in model training and evaluation.
+
+**Autonomous Driving:** Used for data collection during autonomous driving model training. It captures image sequences, considering both the angle and speed of the vehicle.
+
+**Validation:** Allows manual image capture, establishing a database for model validation. Useful for evaluating model performance in controlled and specific scenarios.
+
+**Evaluation:** The activation of the four modes in this environment allows the evaluation of duckweed detection and steering models. It facilitates comprehensive evaluations and performance analysis under various conditions.
+<p align="center">
+  <img src="Images/MainMenu.png" alt="Main Menu" width="350" style="margin-right: 20px;"/>
+</p>
+
+<p align="center">
+  <i>Main Menu.</i>
+</p>
+
+### Self-driving environment
+The self-driving environment is set in an aquatic setting with various elements simulating a lake, featuring aquatic plants and boats. The purpose of this environment is to capture a sequence of images, taking into account the boat's angle and speed at any given moment. The interface comprises two interactive elements and two informational elements.
+
+#### Interface Elements:
+
+- **Menu:** This button allows users to navigate back to the main menu.
+
+- **Record/Stop:** Activates or deactivates the image capture process.
+
+- **Angle:** Displays the current steering angle of the boat. This information is reflected in the title of the captured image.
+
+- **Velocity:** Shows the speed of the boat at the specific moment. The velocity information is also included in the image title.
+
+<p align="center">
+  ![SelfDriving](gifs/SelfDriving.gif)
+</p>
+<p align="center">
+  <i>Self-driving environment</i>
+</p>
+
+### Validation Environment
+
+The validation environment is designed to simulate a port in the aquatic lake, resulting in a more organized layout of elements. The primary objective is to manually capture images chosen by the user. Additionally, users can adjust the camera to capture different types of images, both underwater and head-on. The interface features four buttons for user interaction.
+
+#### Interface Elements:
+
+- **Menu:** This button allows users to return to the main menu.
+
+- **Capture:** This button is responsible for capturing and saving the selected image.
+
+- **Up:** Adjusts the camera to face upwards.
+
+- **Down:** Adjusts the camera to face downwards.
+
+<p align="center">
+  ![Validation](gifs/Validation.gif)
+</p>
+
+<p align="center">
+  <i>Validation environment</i>
+</p>
+
+### Evaluation Environment
+
+The evaluation environment is designed for model testing and stereo camera usage to optimize the collection of duckweed and avoid obstacles efficiently. It displays a well-organized section of the lake for data collection, particularly focusing on the duckweed gathered over specific time intervals. The environment allows adjusting robot modalities with different characteristics.
+
+#### Interface Elements:
+
+- **Menu:** Returns to the main menu.
+
+- **Restart:** Resets the robot's journey to test different modalities or changes.
+
+- **Reduce:** Slows down the environment's time to capture journey details more effectively.
+
+- **Increase:** Speeds up the environment's time to accelerate the journey if necessary.
+
+- **Camera:** Changes the user's perspective on the boat.
+
+- **Modality Selection:** A dropdown menu presenting 5 options:
+
+  - **Manual:** Default modality, allowing user manipulation of robot movement.
+
+  - **Modality 1:** Utilizes only the duckweed detection model with a drastic angle change.
+
+  - **Modality 2:** Utilizes only the duckweed detection model but with momentum for smoother angle changes.
+
+  - **Modality 3:** Considers two models - duckweed detection and direction detection, resulting in smoothed angle changes.
+
+  - **Modality 4:** Incorporates the duckweed detection model and uses a stereo camera to determine obstacles to avoid.
+
+<p align="center">
+  ![Evaluation](gifs/Evaluation.gif)
+</p>
+
+<p align="center">
+  <i>Evaluation environment</i>
+</p>
+
+## File Overview
+
+### Files C#
+
+| **File** | **Type** | **Description** |
+|-----------|-----------|-----------|
+| CameraRotation.cs | Camera | Adjust the vertical rotation of the camera in the validation environment to optimize image capture. |
+| Cameras.cs | Camera | Switch between three camera types to change the perspective point for visualization. |
+| CaptureImage.cs | Camera | Capture an image from the validation environment and save it in the computer's documents section.|
+| ImageCapture.cs | Camera | Capture a series of images in the self-driving environment, including data such as robot speed and angle, and save the content in the computer's documents. |
+| Depthclient.cs | Clients | Process three images simultaneously in each evaluation environment cycle for duckweed and obstacle detection using stereo vision techniques. |
+| Effnetclient.cs | Clients | Process one image in each evaluation environment cycle for duckweed and obstacle detection using trained models. |
+| DuckweedCounter.cs | DataEvaluation | Count the remaining and collected duckweeds in the evaluation environment. |
+| TimeManager.cs | DataEvaluation | Track the elapsed time since the start of the evaluation environment journey, and provide controls to accelerate or decelerate it. |
+| AngleText.cs | Interface | Display the robot's driving angle in the self-driving environment. |
+| TextController.cs | Interface | Activate the sequence image capture process in the self-driving environment and rename the button accordingly. |
+| UI_HoldButton.cs  |  Interface | Add an additional function to the buttons to detect continuous pressing. |
+| VelocityScript.cs   | Interface | Display the robot's speed in the self-driving environment. |
+| ClearConsole.cs   | Load Menu |Clear the Unity console each time an environment is initiated to prevent saturation |
+| LoadingScreenController.cs   | Load Menu | Asynchronously initiate the environment, generating elements before starting.|
+| Closeprogram.cs  | Main Menu |Close the application.|
+| Create_documents.cs  | Main Menu |Create a container folder for files generated in each environment.|
+| Gameagain.cs   | Main Menu |Save the startup configuration of the evaluation environment.|
+| SelectWorld.cs  | Main Menu |Change the scenario as specified.|
+| Modality1.cs  <br> Modality2.cs  <br> Modality3.cs  <br> Modality4.cs  | Servers |Activate their respective servers based on the chosen mode in the evaluation environment.|
+| Nox.cs  | System |Deactivate all elements in the current scenario.|
+| Rest.cs  | System |Activate the stereo detection client.|
+| AutonomousMovement.cs | Vehicle |Modify vehicle movement based on data received from the server.|
+| Floats.cs | Vehicle |Simulate aquatic movement for the robot.|
+| Movement.cs | Vehicle |Handle user-initiated vehicle movement.|
+
+### Files Python
+| **File** | **Type** | **Description** |
+|-----------|-----------|-----------|
+| Servermodality1.py <br> Servermodality2.py <br> Servermodality3.py <br> Depthserver.py | Servers |The servers responsible for handling the processing of program images operate by utilizing models and stereo vision to detect duckweeds and their orientations.|
+
+### Files Model
+| **File** | **Type** | **Description** |
+|-----------|-----------|-----------|
+| Best.pt | Yolov8 |The YOLOv8 model tasked with detecting lentils in the processed images.|
+| Steering_estimator.pt | Resnet |The ResNet model designed to determine the correct angle for the robot to avoid obstacles.|
 ## Contributions
 If you wish to contribute to this project, please follow these guidelines:
 
