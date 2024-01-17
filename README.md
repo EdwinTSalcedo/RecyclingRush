@@ -1,7 +1,7 @@
 
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=160&text=%20Recycling%20Rush&fontAlign=50&fontSize=30&fontAlignY=30&color=00629B&fontColor=FFFFFF) 
 
-<p align="center" style="margin-top:-30px;">
+<p align="center" style="margin-top:-50px;">
 <img src="images/main3.gif" width="50%">
 </p>
 
