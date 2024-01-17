@@ -70,7 +70,7 @@ The design was created in SolidWorks 2020, and it is recommended to use the same
 3. To view or modify individual parts, open the part (.SLDPRT) files.
 4. To view the complete assembly, open the `Assembly.SLDASM` file.
 
-## ROS system
+<!-- ## ROS system -->
 
 # SAE
 
@@ -437,7 +437,7 @@ The evaluation environment is designed for model testing and stereo camera usage
 | Best.pt | Yolov8 |The YOLOv8 model tasked with detecting lentils in the processed images.|
 | Steering_estimator.pt | Resnet |The ResNet model designed to determine the correct angle for the robot to avoid obstacles.|
 
-# Results
+<!-- # Results -->
 
 # Citing
 
