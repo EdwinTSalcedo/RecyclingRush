@@ -8,6 +8,7 @@ Last Updated: December 19th, 2023
   <a href="#features" style="color: #FF00FF;"><b>Features</b></a> |
   <a href="#installation" style="color: #FF00FF;"><b>Installation</b></a> |
   <a href="#usage" style="color: #FF00FF;"><b>Usage</b></a> |
+  <a href="#scripts" style="color: #FF00FF;"><b>Scripts</b></a> |
   <a href="#contributions" style="color: #FF00FF;"><b>Contributions</b></a> |
   <a href="#license" style="color: #FF00FF;"><b>License</b></a> |
   <a href="#contact" style="color: #FF00FF;"><b>Contact</b></a>
@@ -115,7 +116,7 @@ This project is an aquatic simulator developed in Unity with the primary goal of
 - Customize the Unity project as needed, taking into account environmental constraints and the power of your computer for ride performance.
 
 - For any questions or problems, contact the development team using the contact information provided in the README.
-- 
+ 
 ## Environments
 
 Three different modes are available in the main menu of the simulator, each of which serves a specific function in model training and evaluation.
