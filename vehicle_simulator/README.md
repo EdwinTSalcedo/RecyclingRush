@@ -279,7 +279,7 @@ If you wish to contribute to this project, please follow these guidelines:
 4. Submit a pull request to the main branch of the original repository.
 
 ## License
-This project is licensed under the [License Name]. Refer to the LICENSE file for more details.
+This project is licensed under the MIT License. Refer to the LICENSE file for more details.
 
 ## Contact
 For questions or comments, you can reach out to the development team:
